@@ -47,7 +47,8 @@ SOONG_CONFIG_risingGlobalVars += \
     target_trust_usb_control_path \
     target_trust_usb_control_enable \
     target_trust_usb_control_disable \
-    uses_egl_display_array
+    uses_egl_display_array \
+    inline_kernel_building
 
 SOONG_CONFIG_NAMESPACES += risingNvidiaVars
 SOONG_CONFIG_risingNvidiaVars += \
@@ -69,6 +70,7 @@ SOONG_CONFIG_risingGlobalVars_camera_override_format_from_reserved := $(TARGET_C
 SOONG_CONFIG_risingGlobalVars_gralloc_handle_has_custom_content_md_reserved_size := $(TARGET_GRALLOC_HANDLE_HAS_CUSTOM_CONTENT_MD_RESERVED_SIZE)
 SOONG_CONFIG_risingGlobalVars_gralloc_handle_has_reserved_size := $(TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE)
 SOONG_CONFIG_risingGlobalVars_gralloc_handle_has_ubwcp_format := $(TARGET_GRALLOC_HANDLE_HAS_UBWCP_FORMAT)
+SOONG_CONFIG_risingGlobalVars_inline_kernel_building := $(INLINE_KERNEL_BUILDING)
 SOONG_CONFIG_risingGlobalVars_uses_egl_display_array := $(TARGET_USES_EGL_DISPLAY_ARRAY)
 SOONG_CONFIG_risingNvidiaVars_uses_nvidia_enhancements := $(NV_ANDROID_FRAMEWORK_ENHANCEMENTS)
 SOONG_CONFIG_risingQcomVars_supports_extended_compress_format := $(AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT)
