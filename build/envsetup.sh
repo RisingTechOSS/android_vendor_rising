@@ -942,6 +942,10 @@ function fixup_common_out_dir() {
     fi
 }
 
+echo "Building with ThinLTO."
+export GLOBAL_THINLTO=true
+export USE_THINLTO_CACHE=true
+
 export SKIP_ABI_CHECKS=true
 export DISABLE_ARTIFACT_PATH_REQUIREMENTS="true"
 
