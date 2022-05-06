@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (C) 2019-2022 crDroid Android Project
+# Copyright (C) 2019-2022 riceDroid Android Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 #
 
 #$1=TARGET_DEVICE, $2=PRODUCT_OUT, $3=FILE_NAME
-existingOTAjson=./vendor/crDroidOTA/$1.json
+existingOTAjson=./vendor/riceDroidOTA/$1.json
 output=$2/$1.json
 
 #cleanup old file
@@ -35,7 +35,7 @@ if [ -f $existingOTAjson ]; then
 	v_max=`echo "$version" | cut -d'.' -f1 | cut -d'v' -f2`
 	v_min=`echo "$version" | cut -d'.' -f2`
 	version=`echo $v_max.$v_min`
-	download="https://sourceforge.net/projects/crdroid/files/'$device'/'$v_max'.x/'$4'/download"
+	download="https://sourceforge.net/projects/rice/files/'$device'/'$v_max'.x/'$4'/download"
 	buildprop=$2/system/build.prop
 	linenr=`grep -n "ro.system.build.date.utc" $buildprop | cut -d':' -f1`
 	timestamp=`sed -n $linenr'p' < $buildprop | cut -d'=' -f2`
@@ -95,7 +95,7 @@ if [ -f $existingOTAjson ]; then
 			"oem": "'$oem'",
 			"device": "'$device'",
 			"filename": "'$filename'",
-			"download": "https://sourceforge.net/projects/crdroid/files/'$1'/'$v_max'.x/'$3'/download",
+			"download": "https://sourceforge.net/projects/rice/files/'$1'/'$v_max'.x/'$3'/download",
 			"timestamp": '$timestamp',
 			"md5": "'$md5'",
 			"sha256": "'$sha256'",
@@ -121,7 +121,7 @@ if [ -f $existingOTAjson ]; then
 else
 	#if not already supported, create dummy file with info in it on how to
 	echo 'There is no official support for this device yet' >> $output;
-	echo 'Consider adding official support by reading the documentation at https://github.com/crdroidandroid/android_vendor_crDroidOTA/blob/12.0/README.md' >> $output;
+	echo 'Consider adding official support by reading the documentation at https://github.com/riceandroid/android_vendor_riceDroidOTA/blob/12.0/README.md' >> $output;
 fi
 
 cat $output

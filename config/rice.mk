@@ -21,6 +21,18 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     keyguard.no_require_sim=true \
     persist.sys.disable_rescue=true
 
+# Rice properties
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.rice.maintainer=$(RICE_MAINTAINER) \
+    ro.rice.code=$(RICE_CODE) \
+    ro.rice.packagetype=$(PACKAGE_BUILD_TYPE) \
+    ro.rice.releasetype=$(RICE_BUILD_TYPE) \
+    ro.rice.version?=$(RICE_VERSION) \
+    ro.rice.build.version=$(LINEAGE_VERSION) \
+    ro.rice.display.version?=$(LINEAGE_DISPLAY_VERSION) \
+    ro.rice.platform_release_codename=$(RICE_FLAVOR) \
+    ro.ricelegal.url=https://www.manginasal.com/
+    
 # Enable IORap I/O Prefetching
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
@@ -50,7 +62,13 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     dalvik.vm.dex2oat64.enabled=true
 
+TARGET_BUILD_GRAPHENEOS_CAMERA ?= true
+ifeq ($(strip $(TARGET_BUILD_GRAPHENEOS_CAMERA)),true)
+PRODUCT_PACKAGES += \
+    GrapheneCamera
+endif
+
 # Extra packages
 PRODUCT_PACKAGES += \
     GamingMode \
-    MatLog
+    OPWidget
