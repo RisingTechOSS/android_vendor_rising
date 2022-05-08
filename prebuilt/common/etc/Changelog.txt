@@ -1,0 +1,23 @@
+RiceDroid ROM Changelog
+Rice Version: Adobo
+Rice Code: 1.0
+
+===== 05 May, 2022 =====
+
+* Initial riceDroid bringup from crDroid
+* Updated security patch level May 2022
+* Introducing Carinderia Launcher
+* Introducing Rice UI
+* Introducing Rice Dialer
+* Minimal Gapps and Chromium
+* Project Arcana and ProtonAOSP audio effects/ringtones
+* Performance and animations enhancements
+* Rice Idle Manager
+* Monet Bootanimation
+* Implemented new Screenshot Shortcuts (lens & delete buttons)
+* Data Usage on QS footer
+* Optimized Charging Feature
+* PackageInstaller: show current/new version on sideload
+* Enabled Lockscreen shortcuts
+* Memes when users click something particular
+* Initial OTA support for official builds

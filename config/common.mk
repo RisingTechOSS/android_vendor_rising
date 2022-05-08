@@ -77,6 +77,9 @@ endif
 # Bootanimation
 PRODUCT_COPY_FILES += vendor/lineage/prebuilt/common/media/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
 
+# Changelog
+PRODUCT_COPY_FILES += vendor/lineage/prebuilt/common/etc/Changelog.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/Changelog.txt
+
 # Lineage-specific broadcast actions whitelist
 PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/lineage-sysconfig.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lineage-sysconfig.xml
