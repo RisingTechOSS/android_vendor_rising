@@ -40,6 +40,10 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Enable one-handed mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
+    
+# Fallback hwui renderer
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.hwui.renderer?=opengl
 
 # Disable touch video heatmap to reduce latency, motion jitter, and CPU usage
 # on supported devices with Deep Press input classifier HALs and models
