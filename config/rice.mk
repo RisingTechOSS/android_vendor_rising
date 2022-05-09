@@ -45,6 +45,17 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.hwui.renderer?=opengl
 
+# Gboard
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.google.ime.kb_pad_port_b?=1
+
+# Gboard side padding (OOS)
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.google.ime.kb_pad_port_l?=7 \
+    ro.com.google.ime.kb_pad_port_r?=7 \
+    ro.com.google.ime.kb_pad_land_l?=14 \
+    ro.com.google.ime.kb_pad_land_r?=14
+
 # Disable touch video heatmap to reduce latency, motion jitter, and CPU usage
 # on supported devices with Deep Press input classifier HALs and models
 PRODUCT_PRODUCT_PROPERTIES += \
