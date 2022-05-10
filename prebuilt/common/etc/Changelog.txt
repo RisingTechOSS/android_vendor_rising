@@ -6,9 +6,12 @@ Rice Code: 1.0
 
 * Initial riceDroid bringup from crDroid
 * Updated security patch level May 2022
-* Introducing Carinderia Launcher
+* Introducing Sushi Launcher
 * Introducing Rice UI
-* Introducing Rice Dialer
+* Introducing Rice Dialer and Messaging app - more features than aosp version
+* Intoducing riceDroid Labs
+* Nothing Dot Font Style xD
+* Media art notification background
 * Minimal Gapps and Chromium
 * Project Arcana and ProtonAOSP audio effects/ringtones
 * Performance and animations enhancements
