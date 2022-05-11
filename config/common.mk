@@ -14,7 +14,6 @@ ifeq ($(WITH_GAPPS),true)
 
 # Required packages
 PRODUCT_PACKAGES += \
-    Chromium \
     Gboard
     
 endif
