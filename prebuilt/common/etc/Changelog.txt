@@ -1,28 +1,13 @@
-RiceDroid ROM Changelog
-Rice Code: 1.0
-Rice Version: Adobo - Adobo or adobar (Spanish: marinade, sauce, or seasoning) is the immersion of cooked food in a stock (or sauce) composed variously of paprika, oregano, salt, garlic, and vinegar to preserve and enhance its flavor. The Portuguese variant is known as Carne de vinha d'alhos.
+RiceDroid Update Changelog
+Rice Code: 1.5
+Rice Version: Bananacue - This popular Filipino street food is made from fried saba bananas coated in caramelized brown sugar. It is pretty easy to make and will satisfy any sweet tooth! The name banana cue (or bananacue) simply comes from the combination of the words banana and barbecue.
 
-===== 11 May, 2022 =====
-
-* Initial riceDroid bringup from crDroid
-* Updated security patch level May 2022
-* Introducing Sushi Launcher
-* Introducing Rice UI
-* Introducing Rice Dialer and Messaging app - more features than aosp version
-* Intoducing riceDroid Labs
-* Nothing Dot Font Style xD
-* Media art notification background
-* Minimal Gapps and Chromium
-* Project Arcana and ProtonAOSP audio effects/ringtones
-* Performance and animations enhancements
-* Rice Idle Manager
-* Monet Bootanimation
-* Implemented new Screenshot Shortcuts (lens & delete buttons)
-* Data Usage on QS footer
-* Optimized Charging Feature
-* PackageInstaller: show current/new version on sideload
-* Enabled Lockscreen shortcuts
-* Memes when users click something particular
-* Initial OTA support for official builds
-* Allowed to load ddp, ac4 and dolby decoder lib - credits to @HELLBOY017 for this
+===== 19 May, 2022 =====
+* Introducing Custom Dashboard Styles
+* Added Game Space from crdroid
+* Polished UI and text descriptions
+* MATERIALised Stock Apps (Contacts, Dialer, Music, Messaging)
+* Sushi Launcher Improvements and new features
+* Drop Setupwizard in favor of Flashable pixel/google setupwizard for restore operations
+* Performance and Stability Improvements
 
