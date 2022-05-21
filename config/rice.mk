@@ -78,6 +78,5 @@ endif
 
 # Extra packages
 PRODUCT_PACKAGES += \
-    GamingMode \
     GameSpace \
     OPWidget
