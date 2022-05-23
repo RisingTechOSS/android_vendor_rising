@@ -95,7 +95,7 @@ if [ -f $existingOTAjson ]; then
 			"oem": "'$oem'",
 			"device": "'$device'",
 			"filename": "'$filename'",
-			"download": "https://sourceforge.net/projects/rice/files/'$1'/'$v_max'.x/'$3'/download",
+			"download": "https://sourceforge.net/projects/RiceDroid/files/'$1'/'$v_max'.x/'$3'/download",
 			"timestamp": '$timestamp',
 			"md5": "'$md5'",
 			"sha256": "'$sha256'",
@@ -121,7 +121,7 @@ if [ -f $existingOTAjson ]; then
 else
 	#if not already supported, create dummy file with info in it on how to
 	echo 'There is no official support for this device yet' >> $output;
-	echo 'Consider adding official support by reading the documentation at https://github.com/riceandroid/android_vendor_riceDroidOTA/blob/12.0/README.md' >> $output;
+	echo 'Consider adding official support by reading the documentation at https://github.com/RiceDroid/android_vendor_RiceDroidOTA/blob/twelve/README.md' >> $output;
 fi
 
 cat $output
