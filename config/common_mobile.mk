@@ -4,7 +4,7 @@ $(call inherit-product, vendor/lineage/config/common.mk)
 # Default notification/alarm sounds
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.notification_sound=oneplus.ogg \
-    ro.config.alarm_alert=oneplusring.ogg
+    ro.config.alarm_alert=into_the_night.ogg
 
 # Apps
 PRODUCT_PACKAGES += \
