@@ -34,10 +34,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
 
-# Fallback hwui renderer
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.sys.hwui.renderer?=opengl
-
 # Gboard
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.kb_pad_port_b?=1
