@@ -34,6 +34,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
 
+# Set dexopt downgrade threshold or dexopt will fail
+PRODUCT_SYSTEM_PROPERTIES += \
+    pm.dexopt.downgrade_after_inactive_days=10
+
 # Gboard
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.kb_pad_port_b?=1
