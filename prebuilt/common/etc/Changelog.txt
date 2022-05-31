@@ -1,22 +1,23 @@
 RiceDroid Update Changelog
-Rice Code: 1.5
-Rice Version: Bananacue - This popular Filipino street food is made from fried saba bananas coated in caramelized brown sugar. It is pretty easy to make and will satisfy any sweet tooth! The name banana cue (or bananacue) simply comes from the combination of the words banana and barbecue.
+Rice Code: 2.0
+Rice Version: Fried squid (calamari) is a dish in Mediterranean cuisine. It consists of batter-coated squid, deep-fried for less than two minutes to prevent toughness. It is served plain, with salt and lemon on the side.
 
-===== 25 May, 2022 =====
+===== 31 May, 2022 =====
 * Crdroid Upstream Changes
-* Removed applock feature as it was causing conflicts with notification stuffs
-* Removed launcher and switched back to Sushi Launcher
-* Performance and animation improvements
-* UI improvements 
-  - Retuned collapsingtoolbar
-  - Fixed volume panel background height
-  - Expanded Volume panel improvements
-  - QS/QQS layout cleanup
-  - UDFPS location adjustments
-  - Lockscreen ripple improvements 
-  - Fixed few UI glitches
-* Performance and stability improvements 
-
+* Redesigned User Interface
+* Improved stock apps Material you colors
+* Black theme support for Messaging and Dialer app
+* SushiLauncher version 2.0
+* New QS Media notification behavior
+* Improved Settings Dashboard Styles
+* Improved User Interface theming
+	- new fonts
+	- new signal and wifi icons
+* Lockscreen shortcuts settings
+* Notification Headers toggle
+* Fixed Monet not getting applied when an iconpack is applied
+* Fixed HeadsUp, reticker and other notifications not popping-up  
+* Performance improvements and system permission/runtime fixes
 
 ===== End of Changelog =====
 
