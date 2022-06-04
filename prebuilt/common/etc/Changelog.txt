@@ -2,21 +2,27 @@ RiceDroid Update Changelog
 Rice Code: 2.0
 Rice Version: Fried squid (calamari) is a dish in Mediterranean cuisine. It consists of batter-coated squid, deep-fried for less than two minutes to prevent toughness. It is served plain, with salt and lemon on the side.
 
-===== 31 May, 2022 =====
+===== Start of Changelog =====
 * Crdroid Upstream Changes
 * Redesigned User Interface
-* Improved stock apps Material you colors
+* Improved stock apps Material you colors implementation
 * Black theme support for Messaging and Dialer app
-* SushiLauncher version 2.0
-* New QS Media notification behavior
+* SushiLauncher version 3.0
+* Recolored some Material you UI/UX elements
+* Reworked QS Media notification
 * Improved Settings Dashboard Styles
 * Improved User Interface theming
-	- new fonts
-	- new signal and wifi icons
+ - new fonts
+ - new signal and wifi icons
 * Lockscreen shortcuts settings
 * Notification Headers toggle
-* Fixed Monet not getting applied when an iconpack is applied
-* Fixed HeadsUp, reticker and other notifications not popping-up  
+* Fixed previous issues on beta builds (notifcation, monet etc.)
+* SystemUI mods that needs sysui restart now shows prompts so user will not mistook it for bugs
+* Adaptive Playback feature
+* Added two new udfps icons 
+* Double tap to trigger doze
+* Make IME button space optional feature
+* AOD/AOD on charge and Refresh rate QS tiles
 * Performance improvements and system permission/runtime fixes
 
 ===== End of Changelog =====
