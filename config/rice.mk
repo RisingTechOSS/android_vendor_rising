@@ -79,4 +79,5 @@ endif
 # Extra packages
 PRODUCT_PACKAGES += \
     GameSpace \
+    SimIcons \
     OPWidget
