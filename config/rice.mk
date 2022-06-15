@@ -36,9 +36,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.rice.platform_release_codename=$(RICE_FLAVOR) \
     ro.ricelegal.url=https://www.manginasal.com/
 
-# Enable IORap I/O Prefetching
+# Disable iorapd
 PRODUCT_SYSTEM_PROPERTIES += \
-    persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
+    ro.iorapd.enable=false
 
 # Set dexopt downgrade threshold or dexopt will fail
 PRODUCT_SYSTEM_PROPERTIES += \
