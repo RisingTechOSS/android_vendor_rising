@@ -1,29 +1,26 @@
 RiceDroid Update Changelog
-Rice Code: 2.0
-Rice Version: Fried squid (calamari) is a dish in Mediterranean cuisine. It consists of batter-coated squid, deep-fried for less than two minutes to prevent toughness. It is served plain, with salt and lemon on the side.
+Rice Code: 2.5
+Rice Version: Duhat is a local Philippine fruit that's commonly referred to in English as Java plum. The scientific name of the plant is Syzgium cumini. It is also widely known as lomboy, a non-Tagalog word.
 
+legend [] = credits
 ===== Start of Changelog =====
 * Crdroid Upstream Changes
-* Redesigned User Interface
-* Improved stock apps Material you colors implementation
-* Black theme support for Messaging and Dialer app
-* SushiLauncher version 3.0
-* Recolored some Material you UI/UX elements
-* Reworked QS Media notification
-* Improved Settings Dashboard Styles
-* Improved User Interface theming
- - new fonts
- - new signal and wifi icons
-* Lockscreen shortcuts settings
-* Notification Headers toggle
-* Fixed previous issues on beta builds (notifcation, monet etc.)
-* SystemUI mods that needs sysui restart now shows prompts so user will not mistook it for bugs
-* Adaptive Playback feature
-* Added two new udfps icons 
-* Double tap to trigger doze
-* Make IME button space optional feature
-* AOD/AOD on charge and Refresh rate QS tiles
-* Performance improvements and system permission/runtime fixes
+* QS Tile Customizations
+* Sushi Launcher - version Sashimi [derpfest|crdroid|corvus-aosp|waifupx]
+ -Shipped with DGicons - [@galahad_wpx]
+* Reworked Media notification player
+* Lockscreen/Keyguard Improvements
+* Improved settings styles 
+* Dialer - fixed layouts and minor theming changes
+* DocumentsUI - fix tab color inconsistencies
+* Eleven music player - follow material design 
+* Gamespace - refactored layout [crDroid|corvus-aosp]
+* Messaging - fixed uncolored actionbar icons
+* SimIcons - added more icons
+* Performance improvements [baikalOS|syberiaOS|AOSPA]
+* Misc runtime/performance changes from AOSP master/crdroid/rice
+* UDFPS flicker fix [pixelblaster-CAF]
+* Android 12L Platlogo [CipherOS]
 
 ===== End of Changelog =====
 
