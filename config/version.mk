@@ -5,7 +5,7 @@ PRODUCT_VERSION_MINOR = 1
 RICE_VERSION := Duhat
 RICE_CODE := 2.5
 RICE_FLAVOR := Sizzle
-RICE_DEVICE ?= 3310
+RICE_DEVICE := $(shell echo "$(TARGET_PRODUCT)" | cut -d'_' -f 2,3)
 
 # build type
 ifeq ($(RICE_OFFICIAL),true)
