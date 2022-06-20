@@ -2,9 +2,13 @@ RiceDroid Update Changelog
 Rice Code: 2.5
 Rice Version: Duhat is a local Philippine fruit that's commonly referred to in English as Java plum. The scientific name of the plant is Syzgium cumini. It is also widely known as lomboy, a non-Tagalog word.
 
-legend [] = credits
+legend:
+[] = credits
 ===== Start of Changelog =====
 * Crdroid Upstream Changes
+  - QS transparency
+  - Gamespace improvements
+  - Runtime improvements and fixes
 * QS Tile Customizations
 * Sushi Launcher - version Sashimi [derpfest|crdroid|corvus-aosp|waifupx]
  -Shipped with DGicons - [@galahad_wpx]
@@ -20,7 +24,7 @@ legend [] = credits
 * Performance improvements [baikalOS|syberiaOS|AOSPA]
 * Misc runtime/performance changes from AOSP master/crdroid/rice
 * UDFPS flicker fix [pixelblaster-CAF]
-* Android 12L Platlogo [CipherOS]
+* Android 12L platlogo [CipherOS]
 
 ===== End of Changelog =====
 
