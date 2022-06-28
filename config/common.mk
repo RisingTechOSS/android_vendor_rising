@@ -10,13 +10,8 @@ PRODUCT_BRAND ?= riceDroid
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
-ifeq ($(WITH_GAPPS),true)
--include vendor/gms/gms.mk
-
-# Required packages
-PRODUCT_PACKAGES += \
-    Gboard
-    
+ifeq ($(WITH_GMS),true)
+-include vendor/gms/products/gms.mk
 endif
 
 # Backup Tool
