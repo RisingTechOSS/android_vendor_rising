@@ -40,9 +40,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.iorapd.enable=false
 
-# Set dexopt downgrade threshold or dexopt will fail
+# set threshold to filter unused apps
 PRODUCT_SYSTEM_PROPERTIES += \
-    pm.dexopt.downgrade_after_inactive_days=10
+    pm.dexopt.downgrade_after_inactive_days=5
 
 # Gboard
 PRODUCT_PRODUCT_PROPERTIES += \
