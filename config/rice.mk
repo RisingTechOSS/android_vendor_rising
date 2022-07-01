@@ -86,4 +86,5 @@ endif
 PRODUCT_PACKAGES += \
     GameSpace \
     SimIcons \
+    RepainterServicePriv \
     OPWidget
