@@ -44,6 +44,11 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     pm.dexopt.downgrade_after_inactive_days=5
 
+# HWUI
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.renderengine.backend=threaded \
+    persist.sys.hwui.renderer=opengl
+    
 # Gboard
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.kb_pad_port_b?=1
