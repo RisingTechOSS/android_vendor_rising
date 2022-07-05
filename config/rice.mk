@@ -40,6 +40,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.iorapd.enable=false
 
+# LMK
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.lmk.kill_heaviest_task=false
+    
 # HWUI
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.renderengine.backend=threaded \
