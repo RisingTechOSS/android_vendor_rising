@@ -37,7 +37,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.ricelegal.url=https://www.manginasal.com/
 
 # Disable iorapd
-PRODUCT_SYSTEM_PROPERTIES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     ro.iorapd.enable=false
 
 # LMK
@@ -68,18 +68,18 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Blurs
 ifeq ($(TARGET_ENABLE_BLUR), true)
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.blurs_are_expensive=1 \
     ro.surface_flinger.supports_background_blur=1 \
     ro.launcher.blur.appLaunch=false
 endif
 
 # Disable async MTE on system_server
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     arm64.memtag.process.system_server=off
 
 # Enable dex2oat64 to do dexopt
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     dalvik.vm.dex2oat64.enabled=true
 
 TARGET_BUILD_GRAPHENEOS_CAMERA ?= true
