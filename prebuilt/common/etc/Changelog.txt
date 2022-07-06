@@ -1,30 +1,79 @@
-RiceDroid Update Changelog
-Rice Code: 2.5
-Rice Version: Duhat is a local Philippine fruit that's commonly referred to in English as Java plum. The scientific name of the plant is Syzgium cumini. It is also widely known as lomboy, a non-Tagalog word.
+RiceDroid Update Changelogs
+Rice Code: 3.0
+Rice Version: Empanadas - are basically little pockets of dough that are made of: A simple, homemade dough on the outside. 
+              Some kind of protein (usually pork, chicken or beef, but sometimes fish or cheese) tucked into the inside. 
+              Usually empanadas also have at least one or two simple vegetables—think corn, diced potatoes or carrots.
 
-legend:
-[] = credits
+Legend:
+[] = Credits and thanks to
+UR = User's Requests
+MR = Maintainer's Request 
+
 ===== Start of Changelog =====
-* Crdroid Upstream Changes
-  - QS transparency
-  - Gamespace improvements
-  - Runtime improvements and fixes
-* QS Tile Customizations
-* Sushi Launcher - version Sashimi [derpfest|crdroid|corvus-aosp|waifupx]
- -Shipped with DGicons - [@galahad_wpx]
-* Reworked Media notification player
-* Lockscreen/Keyguard Improvements
-* Improved settings styles 
-* Dialer - fixed layouts and minor theming changes
-* DocumentsUI - fix tab color inconsistencies
-* Eleven music player - follow material design 
-* Gamespace - refactored layout [crDroid|corvus-aosp]
-* Messaging - fixed uncolored actionbar icons
-* SimIcons - added more icons
-* Performance improvements [baikalOS|syberiaOS|AOSPA]
-* Misc runtime/performance changes from AOSP master/crdroid/rice
-* UDFPS flicker fix [pixelblaster-CAF]
-* Android 12L platlogo [CipherOS]
+
+==== riceDroid Additions =====
+* Added new meme and one song recommendation easter egg
+* Added more UDFPS icons and made UFPS animations smoother
+* Added Verified firmware state on riceDroid device section - [xyzuan|xdroid-OSS]
+* Android-12.1.0_r11 (July security patch)
+* AOSP dashboard contextual messages  - [xyzuan|xdroid-OSS]
+* Dialer - Fixed lags and reported issues
+* Fixed and improved QS Tile Customizations [IacobIonut01|DotOS team]
+  - automatically adjust QS tile count when media player is pinned on QQS
+  - QS columns count doesnt need to rotation anymore to get applied
+* Fixed Full screen fragment (last app on the list cut-off)
+* Fonts - improved font rendering for different types of texts/font family
+* IconPacks - fixed unresolved attributes that causes random crashes
+* Gamespace - Refactored (inspired by OOS game dashboard)
+* Introducing riceDroid Pixel Variant
+- Fixed Missing features for Pixel features
+  - battery widget now shows bluetooth device levels
+  - clipboard and copy-paste now works fine
+* Introducing Vivid monet shades
+* Lockscreen shortcuts - follow light/dark theme settings
+* Redesigned Customizations and other UI/UX elements
+* Refactored renderer switch 
+ - automatically tunes renderengine threads/backends for opengl and skia renderers
+* Redesigned Volume Panel (based from p404 redesign) [P404 team]
+* Sushi Launcher - version Nigiri 
+  - updated themedicons [galahad_wpx|waifupx]
+  - updated Quickspace icons
+  - disabled blur on app launch
+
+==== RiceDroid runtime specific additions ====
+* Improved memory management and performance
+  - optimized dalvik heap configs based from OEMs (less aggressive on legacy devices)
+  - followed OEMs default tunings for max cached app processes
+* Improved refresh rate/fps history handling - [sv22|BaikalOS|arter97]
+* Attempt to improve GPU/animation rendering and improved skia blur rendering
+ - attempt to make animations smoother 
+* Attempt to reduce overall cpu usage - (cant make any claims) -[sv22|baikalOS]
+ - readjusted service priorities and utilized task profiles
+
+==== Cherry-picked features Additions ====
+* [UR]Always on Display scheduling - [idoybh|YAAP]
+* Brightness patches/fixes and Lab improvements [libxzr|Project Kaleidoscope team]
+  - Add support for strict standby policy 
+  - Add force background freezer 
+  - Add preference for resetting auto brightness adjustment
+* Crdroid Upstream Changes -[neobuddy89|crdroid Team]
+  - Added qs tile animation styles
+  - Added qs tile animation interpolator
+  - Applied patches from crdroid's repositories
+* [MR]Erofs support - [AOSPA]
+* Introducing App Security  - [jhonboy121|AOSP-krypton]
+- [UR]Better Applock Implementation
+- hidden app feature now guarded (Settings->Security->App Security)
+* Improved and fixed refresh rate tile [nullxception|jhonboy121|mikeNG|ShapeShiftOS]
+* Toggle for Wallpaper Zoom animation - [meganukebmp|EvolutionX]
+  
+==== Cherry-picked runtime specific additions ====
+* [MR]BurnIn protection from pixelexperience - [arter97|PixelExperience]
+* [UR]Fixed screen-on timeout issues on some devices [lineageOS]
+* Improved opengl/skia blur rendering - [kdrag0n|ProtonAOSP]
+* [UR]UDFPS: Night Light Disable [elpaablo]
+
+PS: if we missed some credits please let us know! Have a nice day.
 
 ===== End of Changelog =====
 
