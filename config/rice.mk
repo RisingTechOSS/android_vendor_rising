@@ -46,9 +46,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     
 # HWUI
 PRODUCT_PRODUCT_PROPERTIES += \
-    persist.sys.renderengine.backend=threaded \
-    persist.sys.hwui.renderer=opengl \
-    debug.stagefright.renderengine.backend=threaded
+    persist.sys.renderengine.backend?=threaded \
+    persist.sys.hwui.renderer?=opengl \
+    persist.sys.renderthread.skia.reduceopstasksplitting?=false \
+    debug.stagefright.renderengine.backend?=threaded
     
 # Gboard
 PRODUCT_PRODUCT_PROPERTIES += \
