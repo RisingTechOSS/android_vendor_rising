@@ -50,6 +50,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.hwui.renderer?=skiagl \
     persist.sys.renderthread.skia.reduceopstasksplitting?=true
     
+# HWUI Hint manager
+PRODUCT_PRODUCT_PROPERTIES += \
+    debug.hwui.use_hint_manager?=true \
+    debug.hwui.target_cpu_time_percent?=60
+
 # Gboard
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.kb_pad_port_b?=1
