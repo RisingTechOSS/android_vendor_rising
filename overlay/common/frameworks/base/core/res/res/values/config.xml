@@ -363,9 +363,6 @@
     <string name="config_systemUiIntelligence">com.google.android.as</string>
     <string name="config_systemVisualIntelligence">com.google.android.as</string>
 
-    <!-- the number of the max cached processes in the system. -->
-    <integer name="config_customizedMaxCachedProcesses">42</integer>
-
     <!-- Android Auto role -->
     <string name="config_systemAutomotiveProjection" translatable="false">com.google.android.projection.gearhead</string>
 
