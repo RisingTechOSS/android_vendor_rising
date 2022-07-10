@@ -51,6 +51,18 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.hwui.use_hint_manager?=true \
     debug.hwui.target_cpu_time_percent?=60
 
+# perf memory optimizations
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.fw.bg_apps_limit?=32 \
+    persist.sys.fw.use_trim_settings?=true \
+    persist.sys.fw.empty_app_percent?=50 \
+    persist.sys.fw.trim_empty_percent?=100 \
+    persist.sys.fw.trim_cache_percent?=100 \
+    persist.sys.fw.trim_enable_memory?=2147483648 \
+    persist.sys.fw.bservice_age?=5000 \
+    persist.sys.fw.bservice_limit?=5 \
+    persist.sys.fw.bservice_enable?=false
+
 # Gboard
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.kb_pad_port_b?=1
