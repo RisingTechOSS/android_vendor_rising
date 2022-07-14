@@ -1,16 +1,67 @@
 RiceDroid Update Changelogs
-Rice Code: 3.0
-Rice Version: Empanadas - are basically little pockets of dough that are made of: A simple, homemade dough on the outside. 
-              Some kind of protein (usually pork, chicken or beef, but sometimes fish or cheese) tucked into the inside. 
-              Usually empanadas also have at least one or two simple vegetables—think corn, diced potatoes or carrots.
+Rice Code: 3.5
+Rice Version: Fries - who doesnt know french fries?
 
 Legend:
 [] = Credits and thanks to
 UR = User's Requests
 MR = Maintainer's Request 
 
-===== Start of Changelog =====
+===== Start of Changelog for version 3.5 =====
 
+==== riceDroid Additions =====
+SYSTEM:
+* [UR]Added Product Sans VH - [Twelvetican]
+* Applied color accent to clear all notification button icon
+* Fixed Quicksettings force close when editing tiles
+* fonts - fixed custom-inter font [nullxception|Derpfest team]
+  - updated Nothing font overlay
+* Lockscreen now dynammically shows clock in google-san font if it 
+  detects a font that will cause overlapping to hour and minute views [ghostrider-reborn]
+* More accurate device name at least for devices like OnePlus
+* Revised and redesigned p404 panel for rice needs  [p404|p404 team]
+  - spaces for different button now hides when view isnt visible
+  - placed sound mode icons above volume slider
+  - redesigned media output button view and optimized spaces
+* Lab: replaced skia vulkan with skiagl for compatiblity accross devices like MTK
+* Revamped lockscreen buttons
+* Show both sizzle and android 12l on android version
+* StatusBar Logo - added rice and peach logos
+
+APPS:
+* Backgrounds: Added previous rice wallpapers
+* Dialer - improved dialer and color palettes
+   -  Redesign dialpad background [color597|Project Kaleidoscope Team]
+* SushiLauncher - Minor redesign of recents app view, inspired by OneUI
+  - [REAPPLY]: SushiLauncher3: Implement hidden & protected apps - [bvlj|lineageOS]
+  - [REAPPLY]: Launcher3: Improve hidden & protected apps - [neobuddy89|crdroid android]
+ - updated DGIcons to Miko preview 1 [galahad_wpx|waifupx]
+
+==== RiceDroid runtime specific additions ====
+* Attempt to improve overall usage by modifying sched profiles, policy, priority and cpusets
+* Attempt to improve UI performance and rendering by optimizing surfaceflinger and display composer/allocator
+* Configured default lmkd and other memory management parameters
+* Optimized some stuffs that causes lags on QuickSettings
+* Performance improvements from baikalOS [sv22|baikalOS] 
+* Ported memory optimizations from CAF/CLO
+* Upstream for lz4, libfuse, drm hwcomposer, bionic and other android runtime properties
+
+==== Cherry-picked features Additions ====
+* App lock fixes - [jhonboy121|FlamingoOS]
+* base: ChooserActivity: Don't show image edit button on multiple targets [theimpulson]
+* base: Prevent NPE for Demo mode [markakash|p404 team]
+* [UR]build: Set DISABLE_ARTIFACT_PATH_REQUIREMENTS to true - [spezi77|Pixel Dust Project]
+* CastTile - Open cast settings on long click [idoybh|YAAP]
+* DeviceIdleJobsController: don't ignore whitelisted system apps - [muhomorr|grapheneOS]
+* [UR]Legacy WFD output video [DennySPB|SyberiaOS]
+* Upstream changes from crDroidandroid -[neobuddy89|crdroid Team]
+* Upstream changes from lineageOS -[lineageOS Team]
+
+===== End of Changelog for version 3.5 =====
+
+
+
+===== Start of Changelog for version 3.0 =====
 ==== riceDroid Additions =====
 * Added new meme and one song recommendation easter egg
 * Added more UDFPS icons and made UFPS animations smoother
@@ -77,4 +128,4 @@ PS: if we missed some credits please let us know! Have a nice day.
 
 ===== End of Changelog =====
 
-
+PS: if we missed some credits please let us know! Have a nice day.
