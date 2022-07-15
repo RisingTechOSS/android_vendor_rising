@@ -106,5 +106,6 @@ endif
 PRODUCT_PACKAGES += \
     GameSpace \
     SimIcons \
+    OmniJaws \
     RepainterServicePriv \
     OPWidget
