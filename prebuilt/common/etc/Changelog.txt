@@ -33,6 +33,12 @@ APPS:
 * Dialer - improved dialer and color palettes
    -  Redesign dialpad background [color597|Project Kaleidoscope Team]
 * SushiLauncher - Minor redesign of recents app view, inspired by OneUI
+  - Added an option to allow users to customize blur radius
+  - Applied monet shades to all apps label and background view
+  - Launcher improvements from crDroid Home - [neobuddy89|crdroid android]
+    - All apps background opacity customization
+    - Recents app view opacity customization
+    - Recents activity preference 
   - [REAPPLY]: SushiLauncher3: Implement hidden & protected apps - [bvlj|lineageOS]
   - [REAPPLY]: Launcher3: Improve hidden & protected apps - [neobuddy89|crdroid android]
  - updated DGIcons to Miko preview 1 [galahad_wpx|waifupx]
@@ -47,13 +53,17 @@ APPS:
 * Upstream for lz4, libfuse, drm hwcomposer, bionic and other android runtime properties
 
 ==== Cherry-picked features Additions ====
+* Add Asus VoLTE Icon
 * App lock fixes - [jhonboy121|FlamingoOS]
 * base: ChooserActivity: Don't show image edit button on multiple targets [theimpulson]
 * base: Prevent NPE for Demo mode [markakash|p404 team]
 * [UR]build: Set DISABLE_ARTIFACT_PATH_REQUIREMENTS to true - [spezi77|Pixel Dust Project]
 * CastTile - Open cast settings on long click [idoybh|YAAP]
 * DeviceIdleJobsController: don't ignore whitelisted system apps - [muhomorr|grapheneOS]
+* FooterActions: Add haptic click when long pressing settings icon 
+* fixup! SystemUI: Allow Wi-Fi/cell tiles to co-exist with provider model - [ghostrider-reborn]
 * [UR]Legacy WFD output video [DennySPB|SyberiaOS]
+* MediaArtwork: better fade filter and encapsulate artwork settings in a data class - [jhonboy121|FlamingoOS]
 * Upstream changes from crDroidandroid -[neobuddy89|crdroid Team]
 * Upstream changes from lineageOS -[lineageOS Team]
 
