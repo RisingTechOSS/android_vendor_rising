@@ -262,7 +262,7 @@ endif
 
 # As
 ifeq ($(KERNEL_SUPPORTS_LLVM_TOOLS),true)
-    LLVM_TOOLS ?= $(TARGET_KERNEL_CLANG_PATH)/bin
+    LLVM_TOOLS := $(KERNEL_TOOLCHAIN)
     KERNEL_LD := LD=$(LLVM_TOOLS)/ld.lld
     KERNEL_AR := AR=$(LLVM_TOOLS)/llvm-ar
     KERNEL_OBJCOPY := OBJCOPY=$(LLVM_TOOLS)/llvm-objcopy
