@@ -15,9 +15,12 @@ SYSTEM:
 * Applied color accent to clear all notification button icon
 * Fixed Quicksettings force close when editing tiles
 * fonts - fixed custom-inter font [nullxception|Derpfest team]
-  - updated Nothing font overlay
-* Lockscreen now dynammically shows clock in google-san font if it 
-  detects a font that will cause overlapping to hour and minute views [ghostrider-reborn]
+  - improved nothing font overlay 
+  - use pixelwars as body font to fix all CAPS issue on ndot font - [Salmon bhoi|nongthaihoang|TheSc1enceGuy]
+* Lockscreen clock improvements 
+   - fixed overlapping on some custom fonts [ghostrider-reborn]
+   - dynamically changet clock color when using ndot font
+   - Optimized Large Clock paddings
 * More accurate device name at least for devices like OnePlus
 * Revised and redesigned p404 panel for rice needs  [p404|p404 team]
   - spaces for different button now hides when view isnt visible
@@ -60,11 +63,13 @@ APPS:
 * [UR]build: Set DISABLE_ARTIFACT_PATH_REQUIREMENTS to true - [spezi77|Pixel Dust Project]
 * CastTile - Open cast settings on long click [idoybh|YAAP]
 * DeviceIdleJobsController: don't ignore whitelisted system apps - [muhomorr|grapheneOS]
-* FooterActions: Add haptic click when long pressing settings icon 
+* [MR]FooterActions: Add haptic click when long pressing settings icon 
 * fixup! SystemUI: Allow Wi-Fi/cell tiles to co-exist with provider model - [ghostrider-reborn]
 * [UR]Legacy WFD output video [DennySPB|SyberiaOS]
 * MediaArtwork: better fade filter and encapsulate artwork settings in a data class - [jhonboy121|FlamingoOS]
 * Upstream changes from crDroidandroid -[neobuddy89|crdroid Team]
+* Settings: Convert hotspot timeout preference to a list preference - [jhonboy121|FlamingoOS]
+* Settings: Add a preference to battery optimization page  - [jhonboy121|FlamingoOS]
 * Upstream changes from lineageOS -[lineageOS Team]
 
 ===== End of Changelog for version 3.5 =====
