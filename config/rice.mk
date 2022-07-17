@@ -102,6 +102,17 @@ PRODUCT_PACKAGES += \
     GrapheneCamera
 endif
 
+# Bootanimation
+ifeq ($(SUSHI_BOOTANIMATION),720)
+# Sushi Bootanimation 720 by saavedra3
+PRODUCT_COPY_FILES += vendor/lineage/prebuilt/common/media/sushi_bootanimation_720.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
+else ifeq ($(SUSHI_BOOTANIMATION),1080)
+# Sushi Bootanimation 1080 by saavedra3
+PRODUCT_COPY_FILES += vendor/lineage/prebuilt/common/media/sushi_bootanimation_1080.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
+else
+PRODUCT_COPY_FILES += vendor/lineage/prebuilt/common/media/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
+endif
+
 # Extra packages
 PRODUCT_PACKAGES += \
     GameSpace \

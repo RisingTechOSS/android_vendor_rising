@@ -69,9 +69,6 @@ ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += persist.sys.strictmode.disable=true
 endif
 
-# Bootanimation
-PRODUCT_COPY_FILES += vendor/lineage/prebuilt/common/media/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
-
 # Changelog
 PRODUCT_COPY_FILES += vendor/lineage/prebuilt/common/etc/Changelog.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/Changelog.txt
 
