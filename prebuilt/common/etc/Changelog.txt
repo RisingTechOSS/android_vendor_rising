@@ -1,146 +1,50 @@
 RiceDroid Update Changelogs
-Rice Code: 3.5
-Rice Version: Fries - who doesnt know french fries?
+Rice Code: 4.0
+Rice Version: Goto -  also known as arroz caldo con goto, is a Filipino rice and beef tripe gruel cooked with ginger and garnished with toasted garlic, scallions, black pepper, and chicharon. It is usually served with calamansi, soy sauce, or fish sauce (patis) as condiments, as well as a hard-boiled egg.
 
 Legend:
 [] = Credits and thanks to
 UR = User's Requests
 MR = Maintainer's Request 
 
-===== Start of Changelog for version 3.5 =====
+===== Start of Changelog for version 4.0 =====
 
 ==== riceDroid Additions =====
-SYSTEM:
-* [UR]Added Product Sans VH - [Twelvetican]
-* Applied color accent to clear all notification button icon
-* Fixed Quicksettings force close when editing tiles
-* fonts - fixed custom-inter font [nullxception|Derpfest team]
-  - improved nothing font overlay 
-  - use pixelwars as body font to fix all CAPS issue on ndot font - [Salmon bhoi|nongthaihoang|TheSc1enceGuy]
-* Lockscreen clock improvements 
-   - fixed overlapping on some custom fonts [ghostrider-reborn]
-   - dynamically changet clock color when using ndot font
-   - Optimized Large Clock paddings
-* More accurate device name at least for devices like OnePlus
-* Revised and redesigned p404 panel for rice needs  [p404|p404 team]
-  - spaces for different button now hides when view isnt visible
-  - placed sound mode icons above volume slider
-  - redesigned media output button view and optimized spaces
-* Lab: replaced skia vulkan with skiagl for compatiblity accross devices like MTK
-* Revamped lockscreen buttons
-* Show both sizzle and android 12l on android version
-* StatusBar Logo - added rice and peach logos
-
-APPS:
-* Backgrounds: Added previous rice wallpapers
-* Dialer - improved dialer and color palettes
-   -  Redesign dialpad background [color597|Project Kaleidoscope Team]
-* SushiLauncher - Minor redesign of recents app view, inspired by OneUI
-  - Added an option to allow users to customize blur radius
-  - Applied monet shades to all apps label and background view
-  - Launcher improvements from crDroid Home - [neobuddy89|crdroid android]
-    - All apps background opacity customization
-    - Recents app view opacity customization
-    - Recents activity preference 
-  - [REAPPLY]: SushiLauncher3: Implement hidden & protected apps - [bvlj|lineageOS]
-  - [REAPPLY]: Launcher3: Improve hidden & protected apps - [neobuddy89|crdroid android]
- - updated DGIcons to Miko preview 1 [galahad_wpx|waifupx]
-
-==== RiceDroid runtime specific additions ====
-* Attempt to improve overall usage by modifying sched profiles, policy, priority and cpusets
-* Attempt to improve UI performance and rendering by optimizing surfaceflinger and display composer/allocator
-* Configured default lmkd and other memory management parameters
-* Optimized some stuffs that causes lags on QuickSettings
-* Performance improvements from baikalOS [sv22|baikalOS] 
-* Ported memory optimizations from CAF/CLO
-* Upstream for lz4, libfuse, drm hwcomposer, bionic and other android runtime properties
+* Addressed broadcasts denials
+* Finalized QS columns customizations [lacoblonut01]
+* Introducing System Shapes
+* Latest July Security patch android-12.1.0_r20 - Raven/Pixel 6 Pro build fingerprint
+* Light and Regular font family support for new fonts
+* Misc tested runtime patches from AOSP master and google corporation partners/OEMs
+* Removed some changes that were causing performance regressions
+* Secondary color for lockscreen clock toggle
+* SushiLauncher - Temaki (v4.0)
+  - Optimized work profile paddings - based from pixel launcher
+  - Fixed broken clear all button when using dark wallpaper
+  - Optimized customizations preference loading
+  - Fixed possible crash on recents app [cjh1249131356]
+  - Synced UI elements with Lawnchair [paphonb]
+  - Sushi launcher as notification listener [thestinger]
+  - Translation support for sushilauncher
+  - Optimized some drawables
+  - Removed icon from all apps search bar
+  - Quickspace fixes and layout cleanup
+* Translation updates and rice crowdin support [crdroid]
+* Volume Panel improvements [ArianK16a]
 
 ==== Cherry-picked features Additions ====
-* Add Asus VoLTE Icon
-* App lock fixes - [jhonboy121|FlamingoOS]
-* base: ChooserActivity: Don't show image edit button on multiple targets [theimpulson]
-* base: Prevent NPE for Demo mode [markakash|p404 team]
-* [UR]build: Set DISABLE_ARTIFACT_PATH_REQUIREMENTS to true - [spezi77|Pixel Dust Project]
-* CastTile - Open cast settings on long click [idoybh|YAAP]
-* DeviceIdleJobsController: don't ignore whitelisted system apps - [muhomorr|grapheneOS]
-* [MR]FooterActions: Add haptic click when long pressing settings icon 
-* fixup! SystemUI: Allow Wi-Fi/cell tiles to co-exist with provider model - [ghostrider-reborn]
-* [UR]Legacy WFD output video [DennySPB|SyberiaOS]
-* MediaArtwork: better fade filter and encapsulate artwork settings in a data class - [jhonboy121|FlamingoOS]
-* Upstream changes from crDroidandroid -[neobuddy89|crdroid Team]
-* Settings: Convert hotspot timeout preference to a list preference - [jhonboy121|FlamingoOS]
-* Settings: Add a preference to battery optimization page  - [jhonboy121|FlamingoOS]
-* Upstream changes from lineageOS -[lineageOS Team]
+* Media player view improvements [jhonboy121]
+* [MR]More fonts
+  - Misans [Cykeek]
+  - Fluids sans [Androbuddy|ntx7|argraur] 
+  - Oppo sans [ratoriku]
+* Navigation handle from Android 13 Beta 3 - [sourajitk]
+* [MR]Notch Cutout overlays  [xlxfoxxlx|MigmXyysd|thestinger]
+* Permission/runtime fixes and improvements [cjh1249131356|xdevs23|Demon000|libxzr|timjosten|jjpprrrr]
+* [UR]Reset battery stats usage [jruesga|kdrag0n|xyyz|Painkiller3]
+* Reticker improvements [cjh1249131356]
+* Status bar: Update notification count overlay [PacMM79]
 
-===== End of Changelog for version 3.5 =====
-
-
-
-===== Start of Changelog for version 3.0 =====
-==== riceDroid Additions =====
-* Added new meme and one song recommendation easter egg
-* Added more UDFPS icons and made UFPS animations smoother
-* Added Verified firmware state on riceDroid device section - [xyzuan|xdroid-OSS]
-* Android-12.1.0_r11 (July security patch)
-* AOSP dashboard contextual messages  - [xyzuan|xdroid-OSS]
-* Dialer - Fixed lags and reported issues
-* Fixed and improved QS Tile Customizations [IacobIonut01|DotOS team]
-  - automatically adjust QS tile count when media player is pinned on QQS
-  - QS columns count doesnt need to rotation anymore to get applied
-* Fixed Full screen fragment (last app on the list cut-off)
-* Fonts - improved font rendering for different types of texts/font family
-* IconPacks - fixed unresolved attributes that causes random crashes
-* Gamespace - Refactored (inspired by OOS game dashboard)
-* Introducing riceDroid Pixel Variant
-- Fixed Missing features for Pixel features
-  - battery widget now shows bluetooth device levels
-  - clipboard and copy-paste now works fine
-* Introducing Vivid monet shades
-* Lockscreen shortcuts - follow light/dark theme settings
-* Redesigned Customizations and other UI/UX elements
-* Refactored renderer switch 
- - automatically tunes renderengine threads/backends for opengl and skia renderers
-* Redesigned Volume Panel (based from p404 redesign) [P404 team]
-* Sushi Launcher - version Nigiri 
-  - updated themedicons [galahad_wpx|waifupx]
-  - updated Quickspace icons
-  - disabled blur on app launch
-
-==== RiceDroid runtime specific additions ====
-* Improved memory management and performance
-  - optimized dalvik heap configs based from OEMs (less aggressive on legacy devices)
-  - followed OEMs default tunings for max cached app processes
-* Improved refresh rate/fps history handling - [sv22|BaikalOS|arter97]
-* Attempt to improve GPU/animation rendering and improved skia blur rendering
- - attempt to make animations smoother 
-* Attempt to reduce overall cpu usage - (cant make any claims) -[sv22|baikalOS]
- - readjusted service priorities and utilized task profiles
-
-==== Cherry-picked features Additions ====
-* [UR]Always on Display scheduling - [idoybh|YAAP]
-* Brightness patches/fixes and Lab improvements [libxzr|Project Kaleidoscope team]
-  - Add support for strict standby policy 
-  - Add force background freezer 
-  - Add preference for resetting auto brightness adjustment
-* Crdroid Upstream Changes -[neobuddy89|crdroid Team]
-  - Added qs tile animation styles
-  - Added qs tile animation interpolator
-  - Applied patches from crdroid's repositories
-* [MR]Erofs support - [AOSPA]
-* Introducing App Security  - [jhonboy121|AOSP-krypton]
-- [UR]Better Applock Implementation
-- hidden app feature now guarded (Settings->Security->App Security)
-* Improved and fixed refresh rate tile [nullxception|jhonboy121|mikeNG|ShapeShiftOS]
-* Toggle for Wallpaper Zoom animation - [meganukebmp|EvolutionX]
-  
-==== Cherry-picked runtime specific additions ====
-* [MR]BurnIn protection from pixelexperience - [arter97|PixelExperience]
-* [UR]Fixed screen-on timeout issues on some devices [lineageOS]
-* Improved opengl/skia blur rendering - [kdrag0n|ProtonAOSP]
-* [UR]UDFPS: Night Light Disable [elpaablo]
-
-PS: if we missed some credits please let us know! Have a nice day.
-
-===== End of Changelog =====
+===== End of Changelog for version 4.0 =====
 
 PS: if we missed some credits please let us know! Have a nice day.
