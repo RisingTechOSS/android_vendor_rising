@@ -54,7 +54,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # perf memory optimizations
 PRODUCT_PRODUCT_PROPERTIES += \
-    persist.sys.fw.bg_apps_limit?=32 \
+    persist.sys.fw.bg_apps_limit?=48 \
     persist.sys.fw.use_trim_settings?=true \
     persist.sys.fw.empty_app_percent?=50 \
     persist.sys.fw.trim_empty_percent?=100 \
