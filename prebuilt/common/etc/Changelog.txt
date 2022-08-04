@@ -19,16 +19,18 @@ MR = Maintainer's Request
 * Removed some changes that were causing performance regressions
 * Secondary color for lockscreen clock toggle
 * SushiLauncher - Temaki (v4.0)
-  - Optimized work profile paddings - based from pixel launcher
   - Fixed broken clear all button when using dark wallpaper
-  - Optimized customizations preference loading
+  - Fixed surfaceflinger access [Tejasvp25]
   - Fixed possible crash on recents app [cjh1249131356]
+  - Optimized customizations preference loading
+  - Optimized work profile paddings - based from pixel launcher
+  - Optimized some drawables
+  - Quickspace fixes and layout cleanup
+  - Removed icon from all apps search bar
+  - Better recents opacity implementation [neobuddy89]
   - Synced UI elements with Lawnchair [paphonb]
   - Sushi launcher as notification listener [thestinger]
   - Translation support for sushilauncher
-  - Optimized some drawables
-  - Removed icon from all apps search bar
-  - Quickspace fixes and layout cleanup
 * Translation updates and rice crowdin support [crdroid]
 * Volume Panel improvements [ArianK16a]
 
