@@ -49,8 +49,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     
 # HWUI Hint manager
 PRODUCT_PRODUCT_PROPERTIES += \
-    debug.hwui.use_hint_manager?=true \
-    debug.hwui.target_cpu_time_percent?=60
+    debug.hwui.use_hint_manager?=true
 
 # perf memory optimizations
 PRODUCT_PRODUCT_PROPERTIES += \
