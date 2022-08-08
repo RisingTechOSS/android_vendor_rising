@@ -1,52 +1,59 @@
 RiceDroid Update Changelogs
-Rice Code: 4.0
+Rice Code: 4.5
 Rice Version: Goto -  also known as arroz caldo con goto, is a Filipino rice and beef tripe gruel cooked with ginger and garnished with toasted garlic, scallions, black pepper, and chicharon. It is usually served with calamansi, soy sauce, or fish sauce (patis) as condiments, as well as a hard-boiled egg.
 
 Legend:
 [] = Credits and thanks to
 UR = User's Requests
 MR = Maintainer's Request 
+CP = Cherry-pick changes under ricedroid additions
+MD = Co-authored/partly modified/minor code changes
+AOSP = Cherry-pick changes from AOSP gerrit
 
-===== Start of Changelog for version 4.0 =====
+===== Start of Changelog for version 4.5 =====
 
-==== riceDroid Additions =====
-* Addressed broadcasts denials
-* Finalized QS columns customizations [lacoblonut01]
-* Introducing System Shapes
-* Latest July Security patch android-12.1.0_r20 - Raven/Pixel 6 Pro build fingerprint
-* Light and Regular font family support for new fonts
-* Misc tested runtime patches from AOSP master and google corporation partners/OEMs
-* Removed some changes that were causing performance regressions
-* Secondary color for lockscreen clock toggle
-* SushiLauncher - Temaki (v4.0)
-  - Fixed broken clear all button when using dark wallpaper
-  - Fixed surfaceflinger access [Tejasvp25]
-  - Fixed possible crash on recents app [cjh1249131356]
-  - Optimized customizations preference loading
-  - Optimized work profile paddings - based from pixel launcher
-  - Optimized some drawables
-  - Quickspace fixes and layout cleanup
-  - Removed icon from all apps search bar
-  - Better recents opacity implementation [neobuddy89]
-  - Synced UI elements with Lawnchair [paphonb]
-  - Sushi launcher as notification listener [thestinger]
-  - Translation support for sushilauncher
-* Translation updates and rice crowdin support [crdroid]
-* Volume Panel improvements [ArianK16a]
+==== riceDroid Additions ===== changes we did or modified
+* [MD]Added and simplified QS System Info [ZeNiXxX|eyosen]
+* July 2022 Security patch with August ASB patches - android-12.1.0_r22
+* Configured background and phantom processes limit
+* Dialer: sync color palettes with google material you 
+* Fonts: fixed broken fonts and lockscreen clock
+* Improved QS Customization 
+  - now shows 2 rows for 3 column tiles
+  - less buggy transition when switching orientations
+* [MD]Improved System Shapes
+  - Implemented Brightness Slider Changes 
+  - Implement qs tile radius changes
+  - Added Samsung icon mask to rice shapes [teamfiles] 
+  - Outline Shapes - from Corvus AOSP [StarkDroid]
+* [AOSP]More AOSP bugfixes from AOSP gerrit
+* [AOSP]Reverted runtime patches that caused audio delays and performance regressions
+* Reworked QS Panel layout
+* SushiLauncher - Temaki (v4.5)
+  - At a glance: minor code cleanup 
+  - Light/dark mode support for taskbar background
+  - Fixed random taskbar height bug issue
+  - Finally fixed work profile paddings
+  - [CP]add support for custom themed icon packs [jhonboy121]
+  - [CP]prevent some crashes on recents app view [jhonboy121]
+  - [CP]Re-added x8 x10 workspaces [PacMM79]
+* Updated tinyalsa from AOSP master
+* Vivid Monet Shades: Restored pitch dark colors
 
-==== Cherry-picked features Additions ====
-* Media player view improvements [jhonboy121]
-* [MR]More fonts
-  - Misans [Cykeek]
-  - Fluids sans [Androbuddy|ntx7|argraur] 
-  - Oppo sans [ratoriku]
-* Navigation handle from Android 13 Beta 3 - [sourajitk]
-* [MR]Notch Cutout overlays  [xlxfoxxlx|MigmXyysd|thestinger]
-* Permission/runtime fixes and improvements [cjh1249131356|xdevs23|Demon000|libxzr|timjosten|jjpprrrr]
-* [UR]Reset battery stats usage [jruesga|kdrag0n|xyyz|Painkiller3]
-* Reticker improvements [cjh1249131356]
-* Status bar: Update notification count overlay [PacMM79]
+==== Cherry-picked features Additions ==== purely cherry-picked changes we didnt modified
+* crDroid/LineageOS Upstream changes
+* Dialer Improvements from crdroid 
+ - Updated and improved icons [neobuddy89]
+ - Improved Material you design [neobuddy89]
+ - Fixed theming issues [neobuddy89]
+ - LineageOS upstream changes [lineageOS team]
+* CameraManager: HAX for depth sensor (Optional) [ghostrider-reborn]
+* Display: Restore brightness adjustment on boot [libxzr]
+* GameSpace - fixed app crashing when notifications access was allowed [timjosten]
+* PixelPropsUtils 
+  - GameProps: Hide Apex Legends as Mi11 [johnmart19]
+  - fixup - Limit SafetyNet workarounds to unstable GMS process [kdrag0n] 
 
-===== End of Changelog for version 4.0 =====
+===== End of Changelog for version 4.5 =====
 
 PS: if we missed some credits please let us know! Have a nice day.

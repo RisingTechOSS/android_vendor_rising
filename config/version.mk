@@ -3,7 +3,7 @@ PRODUCT_VERSION_MINOR = 1
 
 # Rice Version
 RICE_VERSION := Goto
-RICE_CODE := 4.0
+RICE_CODE := 4.5
 RICE_FLAVOR := Sizzle
 RICE_DEVICE := $(shell echo "$(TARGET_PRODUCT)" | cut -d'_' -f 2,3)
 
