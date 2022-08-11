@@ -24,6 +24,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     setupwizard.feature.skip_button_use_mobile_data.carrier1839=true \
     setupwizard.theme=glif_v3_light
 
+# Custom security patch
+CUSTOM_SECURITY_PATCH := 2022-08-05
+
 # Rice properties
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.rice.maintainer=$(RICE_MAINTAINER) \
@@ -35,6 +38,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.rice.build.version=$(LINEAGE_VERSION) \
     ro.rice.display.version?=$(LINEAGE_DISPLAY_VERSION) \
     ro.rice.platform_release_codename=$(RICE_FLAVOR) \
+    ro.rice.build_security_patch=$(CUSTOM_SECURITY_PATCH) \
     ro.ricelegal.url=https://www.manginasal.com/
 
 # Disable iorapd
