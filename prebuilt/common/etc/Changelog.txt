@@ -1,6 +1,6 @@
 RiceDroid Update Changelogs
-Rice Code: 4.5
-Rice Version: Goto -  also known as arroz caldo con goto, is a Filipino rice and beef tripe gruel cooked with ginger and garnished with toasted garlic, scallions, black pepper, and chicharon. It is usually served with calamansi, soy sauce, or fish sauce (patis) as condiments, as well as a hard-boiled egg.
+Rice Code: 5.0
+Rice Version: Halo Halo - a Filipino dessert made with mixed fruit, boiled sweetened white beans, milk, and shaved ice, typically topped with purple yam, crème caramel, and ice cream.
 
 Legend:
 [] = Credits and thanks to
@@ -8,52 +8,72 @@ UR = User's Requests
 MR = Maintainer's Request 
 CP = Cherry-pick changes under ricedroid additions
 MD = Co-authored/partly modified/minor code changes
-AOSP = Cherry-pick changes from AOSP gerrit
+AOSP = Cherry-pick changes from AOSP gerrit/master branch
 
-===== Start of Changelog for version 4.5 =====
+===== Start of Changelog for version 5.0 =====
 
 ==== riceDroid Additions ===== changes we did or modified
-* [MD]Added and simplified QS System Info [ZeNiXxX|eyosen]
-* July 2022 Security patch with August ASB patches - android-12.1.0_r22
-* Configured background and phantom processes limit
-* Dialer: sync color palettes with google material you 
-* Fonts: fixed broken fonts and lockscreen clock
-* Improved QS Customization 
-  - now shows 2 rows for 3 column tiles
-  - less buggy transition when switching orientations
-* [MD]Improved System Shapes
-  - Implemented Brightness Slider Changes 
-  - Implement qs tile radius changes
-  - Added Samsung icon mask to rice shapes [teamfiles] 
-  - Outline Shapes - from Corvus AOSP [StarkDroid]
-* [AOSP]More AOSP bugfixes from AOSP gerrit
-* [AOSP]Reverted runtime patches that caused audio delays and performance regressions
-* Reworked QS Panel layout
-* SushiLauncher - Temaki (v4.5)
-  - At a glance: minor code cleanup 
-  - Light/dark mode support for taskbar background
-  - Fixed random taskbar height bug issue
-  - Finally fixed work profile paddings
-  - [CP]add support for custom themed icon packs [jhonboy121]
-  - [CP]prevent some crashes on recents app view [jhonboy121]
-  - [CP]Re-added x8 x10 workspaces [PacMM79]
-* Updated tinyalsa from AOSP master
-* Vivid Monet Shades: Restored pitch dark colors
+* Adapted CAF/CLO revisions to AOSP
+* Added back Lockscreen Blur Media Filters [eldainosor]
+ - [MD]: Make blur radius configurable
+* Dialer Improvements:
+- Improved Design based on google's M3 design
+- [CP]: Crowdin updates [gwolf2u]
+* Fixed statusbar, keyguard and QSB paddings
+* Improved Dashboard Styles
+- automatically detects if build variant (vanilla/pixel)
+- Added AOSP style
+- Fixed Arcane Style usercard avatar
+* Introducing System Color Palettes
+  - extended monet altering themes with two modes: Black theme and Vivid theme [SagarMakhar - blacktheme overlay]
+  - notes: quite buggy atm, vivid theme can only be set while on light mode (but works and persists on dark mode)
+  - black theme: only for dark mode
+  - vivid theme: Improved color palettes [kdrag0n]
+* Minor monet chroma improvements
+* Minor Volume Panel redesign
+* [MD] Resizeable QS Date, QS and Statusbar clock [StarkDroid|Corvus-AOSP]
+* [AOSP][CP][MD] runtime improvements and August ASB patches from master branch [neobuddy89|crdroid team|lineageos]
+* [MD] Statusbar Clock background chip [StarkDroid|Corvus-AOSP]
+* [MD] Statusbar paddings customizations [IDontCare-05|CrisbalGreece]
+* SushiLauncher: Spicy Tuna
+  - Increased max allowed blur radius
+  - [CP] restore blur on configuration changes [ritujb]
+  - Fixed recents apps resources tint
+  - Applied google M3 color shades
+  - Redesign QuickSearchBar [teamfiles - for the pixel launcher mod concept]
+* Switched to glassy blur effect for background views, recents etc 
+* System Shapes: Improved theming support
+* Toggle-able Translucent QS style [Project Fluid|elluzion|Androbuddy]
+* Translation support improvements 
+ - added turkish translations [Lafactorial]
+ - added chinese translations [xingxingchuan|Fldicoahkiin]
+ - made more strings translatable ~ if you want it to be merged to the source please send a message to the group with #translation with url of your repo, we will cherrypick it and add it to source for you with authorship intact (our crowdin is limited).
 
 ==== Cherry-picked features Additions ==== purely cherry-picked changes we didnt modified
-* crDroid/LineageOS Upstream changes
-* Dialer Improvements from crdroid 
- - Updated and improved icons [neobuddy89]
- - Improved Material you design [neobuddy89]
- - Fixed theming issues [neobuddy89]
- - LineageOS upstream changes [lineageOS team]
-* CameraManager: HAX for depth sensor (Optional) [ghostrider-reborn]
-* Display: Restore brightness adjustment on boot [libxzr]
-* GameSpace - fixed app crashing when notifications access was allowed [timjosten]
-* PixelPropsUtils 
-  - GameProps: Hide Apex Legends as Mi11 [johnmart19]
-  - fixup - Limit SafetyNet workarounds to unstable GMS process [kdrag0n] 
+* crDroid August Upstream changes [neobuddy89|gwolf2u|iusmac|shevt]
+- Android runtime Improvements and fixes
+- Fixed navigation bar theming
+- Fixed handwave & proximity pulse conflict
+- Crowdin Translations
+* Fixed Power menu systemUI restart showing dialog when restarting [ezio84]
+* LineageOS August Upstream changes [luk1337|althafvly|bgcngm|sevenrock|chirayudesai|stricted|mikeNg|haggertk]
+- August ASB patches
+- Lineage dependencies upstream (HALS, blobs, sepolicy more)
+_ Lineage translations updates
+_ Lineage frameworks patches and improvements
+* Show August security patch on settings [jhenrique|PixelExperience] 
+* Show ripple on face unlock [xyzuan|xdroid OSS]
+* Fix user profile photo picker crash [tmjosten|Evolution X]
+* Switch notification background to monet on heads up [DillerOFire|Project Fluid]
 
-===== End of Changelog for version 4.5 =====
+Big thanks to pimpmaneaton for these fork changes merged on main branch:
+* Big dotted/circle battery indicator [DennySPB]
+* ColorController: Fix getting default color [varund7726]
+* Lockscreen charging improvements [calebcabob|SagarMakhar]
+* Pulse improvements [TikkiX2|ezio84] 
+* QuickSettings vibrate/haptic feedback [mydongistiny|amartinz]
+* Screenshot shutter sound toggle [maxwen]
+
+===== End of Changelog for version 5.0 =====
 
 PS: if we missed some credits please let us know! Have a nice day.
