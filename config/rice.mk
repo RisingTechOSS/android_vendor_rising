@@ -112,4 +112,5 @@ PRODUCT_PACKAGES += \
     GameSpace \
     SimIcons \
     RepainterServicePriv \
+    OmniJaws \
     OPWidget
