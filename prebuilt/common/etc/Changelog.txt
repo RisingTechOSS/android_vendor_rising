@@ -16,11 +16,19 @@ AOSP = Cherry-pick changes from AOSP gerrit/master branch
 * [AOSP][CP][MD] runtime improvements and August ASB patches from master branch [neobuddy89|crdroid team|lineageos]
 * Adapted and cherry-picked changes/fixes from android 13
 - Android 13 music player and lockscreen notification style
-- UI Animations changes (splash, recents, lockscreen zoom etc)
+- Animations fixes and improvements
+- Bubbles and notification improvements 
+- Direct share/sharesheet improvements
 - Fix IME/keyboard overlapping with edittext elements
+- Fixed wifi/internet dialog systemui crash/not responding
+- Fixed network related issues
+- QS panel, splitshade, LS improvements
+- Reduced cpu usage from main/ui thread
+- Rendering improvements
 - Resolved misc memory leaks, runtime breakage etc.  
 - Resolved splash animations randomly being cutted off
 - Resolved recent apps/overview losing input focus 
+- Vibrant monet color scheme based from android 13 monet styles
 * Added back Lockscreen Blur Media Filters [eldainosor]
  - [MD]: Make blur radius configurable
 * Adapted CAF/CLO revisions to AOSP
@@ -29,7 +37,7 @@ AOSP = Cherry-pick changes from AOSP gerrit/master branch
 * Dialer Improvements:
 - Improved Design based on google's M3 design
 - [CP]: Crowdin updates [gwolf2u]
-* Fixed animations lags by optimizing blur and renderscript usage
+* Fixed some issues with Omnijaws (random crashing, permission error)
 * Fixed statusbar, keyguard and QSB views paddings
 * Fixed systemui restart issues (combined signal etc, removed systemui restart prompt, just use the power menu one)
 * Improved Dashboard Styles
@@ -60,11 +68,10 @@ AOSP = Cherry-pick changes from AOSP gerrit/master branch
 * System Shapes: Improved theming support
 * Toggle-able Translucent QS style [Project Fluid|elluzion|Androbuddy]
 * Translation support improvements 
- - updated turkish translations [Lafactorial]
- - updated chinese translations [xingxingchuan|Fldicoahkiin]
- - updated spanish translations [jesusvpct]
+ - Updated turkish translations [Lafactorial]
+ - Updated chinese translations [xingxingchuan|Fldicoahkiin]
+ - Updated spanish translations (09/02/22) [jesusvpct]
  - made more strings translatable ~ if you want it to be merged to the source please send a message to the group with #translation with url of your repo, we will cherrypick it and add it to source for you with authorship intact (our crowdin is limited).
- * Vibrant monet color scheme based from android 13 monet styles
  * Volume panel media output controller toggle
  * Volume panel style improvements
 
@@ -86,6 +93,7 @@ AOSP = Cherry-pick changes from AOSP gerrit/master branch
 - Lineage dependencies upstream (HALS, blobs, sepolicy more)
 _ Lineage translations updates
 _ Lineage frameworks patches and improvements
+* Omnijaws Improvements [StarkDroid|Corvus AOSP]
 * Redesign and animate battery and storage usage bars [StarkDroid|Corvus AOSP] 
 * Show August security patch on settings [jhenrique09|PixelExperience] 
 * Show ripple on face unlock [xyzuan|xdroid OSS]
