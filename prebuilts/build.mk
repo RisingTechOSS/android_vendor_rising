@@ -17,6 +17,10 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/rising/prebuilts
 
+# Overlays
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/rising/overlays
+
 PRODUCT_PACKAGES += \
     SystemUIClocks-BigNum \
     SystemUIClocks-Calligraphy \
