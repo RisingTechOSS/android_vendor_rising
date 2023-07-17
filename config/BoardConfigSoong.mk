@@ -49,7 +49,8 @@ SOONG_CONFIG_risingGlobalVars += \
     target_trust_usb_control_enable \
     target_trust_usb_control_disable \
     uses_egl_display_array \
-    inline_kernel_building
+    inline_kernel_building \
+    uses_miui_camera
 
 SOONG_CONFIG_NAMESPACES += risingNvidiaVars
 SOONG_CONFIG_risingNvidiaVars += \
@@ -80,6 +81,7 @@ SOONG_CONFIG_risingQcomVars_qti_vibrator_use_effect_stream := $(TARGET_QTI_VIBRA
 SOONG_CONFIG_risingQcomVars_supports_extended_compress_format := $(AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT)
 SOONG_CONFIG_risingQcomVars_uses_pre_uplink_features_netmgrd := $(TARGET_USES_PRE_UPLINK_FEATURES_NETMGRD)
 SOONG_CONFIG_risingGlobalVars_camera_uses_newer_hidl_override_format := $(TARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT)
+SOONG_CONFIG_risingGlobalVars_uses_miui_camera := $(TARGET_USES_MIUI_CAMERA)
 
 # Set default values
 BOOTLOADER_MESSAGE_OFFSET ?= 0
