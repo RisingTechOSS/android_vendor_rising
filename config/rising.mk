@@ -68,6 +68,10 @@ PRODUCT_PACKAGES += \
     androidx.window.extensions \
     androidx.window.sidecar
 
+PRODUCT_PACKAGES += \
+    SystemUIGoogle \
+    SettingsGoogle
+
 # properties
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.wm.extensions.enabled=true
