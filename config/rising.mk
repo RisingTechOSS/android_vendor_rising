@@ -70,7 +70,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     SystemUIGoogle \
-    SettingsGoogle
+    SettingsGoogle \
+    Backgrounds
 
 # properties
 PRODUCT_PRODUCT_PROPERTIES += \
