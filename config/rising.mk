@@ -1,4 +1,5 @@
 $(call inherit-product-if-exists, vendor/gms/products/gms.mk)
+$(call inherit-product-if-exists, vendor/rising/config/version.mk)
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
@@ -7,18 +8,6 @@ else
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.google.clientidbase=$(PRODUCT_GMS_CLIENTID_BASE)
 endif
-
-# RisingOS properties
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.rising.maintainer=$(RISING_MAINTAINER) \
-    ro.rising.code=$(RISING_CODENAME) \
-    ro.rising.packagetype=$(RISING_PACKAGE_TYPE) \
-    ro.rising.releasetype=$(RISING_BUILDTYPE) \
-    ro.rising.version?=$(RISING_VERSION) \
-    ro.rising.chipset?=$(RISING_CHIPSET) \
-    ro.rising.build.version=$(LINEAGE_VERSION) \
-    ro.rising.display.version?=$(LINEAGE_DISPLAY_VERSION) \
-    ro.rising.platform_release_codename=$(RISING_FLAVOR)
 
 # misc properties
 PRODUCT_PRODUCT_PROPERTIES += \
