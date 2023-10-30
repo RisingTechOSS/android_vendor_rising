@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">RisingOS သည် အနီးရှိ လှုပ်ရှားမှုများကို သိရှိနိုင်ရန် Motion Sense ကို အသုံးပြုသည်။ ၎င်းက သင့်ကင်မရာ၊ မိုက် သို့မဟုတ် တည်နေရာကို မသုံးပါ။</string>
+     <string name="bc_welcome_message">သင်၏ RisingOS က ကြိုဆိုပါသည်</string>
+     <string name="deferred_setup_wizard_title">RisingOS ကို စနစ်ထည့်သွင်းပြီးပါပြီ</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">RisingOS စနစ်ထည့်သွင်းမှု</string>
+     <string name="smart_always_on_display_opt_in_info_text">RisingOS သည် အနီးရှိ လှုပ်ရှားမှုများကို သိရှိနိုင်ရန် Motion Sense ကို အသုံးပြုသည်။ ၎င်းက သင့်ကင်မရာ၊ မိုက် သို့မဟုတ် တည်နေရာကို မသုံးပါ။</string>
+</resources>

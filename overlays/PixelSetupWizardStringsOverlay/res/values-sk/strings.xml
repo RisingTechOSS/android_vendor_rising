@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">RisingOS rozpoznáva pohyb v okolí funkciou Motion Sense. Nepoužíva fotoaparát, mikrofón ani polohu.</string>
+     <string name="bc_welcome_message">Víta vás RisingOS</string>
+     <string name="deferred_setup_wizard_title">Dokončite nastavenie RisingOSa</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">Nastavenie RisingOSa</string>
+     <string name="smart_always_on_display_opt_in_info_text">RisingOS rozpoznáva pohyb v okolí funkciou Motion Sense. Nepoužíva fotoaparát, mikrofón ani polohu.</string>
+</resources>

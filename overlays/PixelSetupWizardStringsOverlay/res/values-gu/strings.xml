@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">આસપાસ થતી હલનચલન જાણવા માટે RisingOS Motion Sense નો ઉપયોગ કરે છે. તે તમારા કૅમેરા, માઇક અથવા સ્થાનનો ઉપયોગ કરતું નથી.</string>
+     <string name="bc_welcome_message">RisingOSમાં આપનું સ્વાગત છે</string>
+     <string name="deferred_setup_wizard_title">RisingOS સેટ કરવાનું સમાપ્ત કરો</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">RisingOS સેટઅપ</string>
+     <string name="smart_always_on_display_opt_in_info_text">આસપાસ થતી હલનચલન જાણવા માટે RisingOS Motion Sense નો ઉપયોગ કરે છે. તે તમારા કૅમેરા, માઇક અથવા સ્થાનનો ઉપયોગ કરતું નથી.</string>
+</resources>

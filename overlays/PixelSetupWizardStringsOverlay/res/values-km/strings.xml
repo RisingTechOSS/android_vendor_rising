@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">RisingOS ប្រើមុខងារ Motion Sense ដើម្បី​ចាប់ចលនា​ដែលនៅជិត។ មុខងារនេះ​មិនប្រើ​កាមេរ៉ា មីក្រូហ្វូន ឬ​ទីតាំង​របស់អ្នក​ទេ។</string>
+     <string name="bc_welcome_message">សូមស្វាគមន៍មកកាន់ RisingOS របស់អ្នក</string>
+     <string name="deferred_setup_wizard_title">បញ្ចប់​ការរៀបចំ RisingOS</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">ការរៀបចំ RisingOS</string>
+     <string name="smart_always_on_display_opt_in_info_text">RisingOS ប្រើមុខងារ Motion Sense ដើម្បី​ចាប់ចលនា​ដែលនៅជិត។ មុខងារនេះ​មិនប្រើ​កាមេរ៉ា មីក្រូហ្វូន ឬ​ទីតាំង​របស់អ្នក​ទេ។</string>
+</resources>

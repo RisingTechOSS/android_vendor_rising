@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <!-- ThemePicker package name for overlaying icons. -->
+    <string name="themepicker_overlayable_package" translatable="false">com.google.android.apps.wallpaper</string>
+    <!-- Package name for the app that implements the wallpaper picker. -->
+    <string name="config_wallpaperPickerPackage" translatable="false">
+        com.google.android.apps.wallpaper
+    </string>
+    <!-- Will enable custom clocks on the lockscreen -->
+    <bool name="config_enableLockScreenCustomClocks">true</bool>
+
+    <!-- Whether or not lockscreen shortcuts can be customized -->
+    <bool name="custom_lockscreen_shortcuts_enabled">true</bool>
+
+    <!-- Whether or not long-pressing on keyguard will display to customize lockscreen -->
+    <bool name="long_press_keyguard_customize_lockscreen_enabled">true</bool>
+    
+    <array name="config_pluginAllowlist">
+        <item>com.android.systemui</item>
+        <item>com.android.systemui.plugin.globalactions.wallet</item>
+        <item>com.android.systemui.falcon</item>
+        <item>com.android.systemui.falcon.debug</item>
+        <item>com.android.systemui.falcon.one</item>
+        <item>com.android.systemui.falcon.two</item>
+        <item>com.android.systemui.falcon.three</item>
+        <item>com.android.systemui.falcon.four</item>
+        <item>com.android.systemui.falcon.five</item>
+        <item>com.android.systemui.falcon.six</item>
+        <item>com.android.systemui.falcon.seven</item>
+        <item>com.android.systemui.falcon.eight</item>
+        <item>com.android.systemui.falcon.nine</item>
+    </array>
+    
+    <array name="avatar_image_descriptions">
+        <item>@string/desc_ProfileIcons11</item>
+        <item>@string/desc_ProfileIcons15</item>
+        <item>@string/desc_ProfileIcons22</item>
+        <item>@string/desc_ProfileIcons7</item>
+        <item>@string/desc_ProfileIcons21</item>
+        <item>@string/desc_ProfileIcons10</item>
+        <item>@string/desc_ProfileIcons24</item>
+        <item>@string/desc_ProfileIcons5</item>
+        <item>@string/desc_ProfileIcons4</item>
+        <item>@string/desc_ProfileIcons6</item>
+        <item>@string/desc_ProfileIcons18</item>
+        <item>@string/desc_ProfileIcons9</item>
+        <item>@string/desc_ProfileIcons17</item>
+        <item>@string/desc_ProfileIcons8</item>
+        <item>@string/desc_ProfileIcons23</item>
+        <item>@string/desc_ProfileIcons19</item>
+        <item>@string/desc_ProfileIcons1</item>
+        <item>@string/desc_ProfileIcons14</item>
+        <item>@string/desc_ProfileIcons3</item>
+        <item>@string/desc_ProfileIcons16</item>
+        <item>@string/desc_ProfileIcons20</item>
+        <item>@string/desc_ProfileIcons12</item>
+        <item>@string/desc_ProfileIcons2</item>
+        <item>@string/desc_ProfileIcons13</item>
+    </array>
+    <array name="avatar_images">
+        <item>@drawable/ProfileIcons11</item>
+        <item>@drawable/ProfileIcons15</item>
+        <item>@drawable/ProfileIcons22</item>
+        <item>@drawable/ProfileIcons7</item>
+        <item>@drawable/ProfileIcons21</item>
+        <item>@drawable/ProfileIcons10</item>
+        <item>@drawable/ProfileIcons24</item>
+        <item>@drawable/ProfileIcons5</item>
+        <item>@drawable/ProfileIcons4</item>
+        <item>@drawable/ProfileIcons6</item>
+        <item>@drawable/ProfileIcons18</item>
+        <item>@drawable/ProfileIcons9</item>
+        <item>@drawable/ProfileIcons17</item>
+        <item>@drawable/ProfileIcons8</item>
+        <item>@drawable/ProfileIcons23</item>
+        <item>@drawable/ProfileIcons19</item>
+        <item>@drawable/ProfileIcons1</item>
+        <item>@drawable/ProfileIcons14</item>
+        <item>@drawable/ProfileIcons3</item>
+        <item>@drawable/ProfileIcons16</item>
+        <item>@drawable/ProfileIcons20</item>
+        <item>@drawable/ProfileIcons12</item>
+        <item>@drawable/ProfileIcons2</item>
+        <item>@drawable/ProfileIcons13</item>
+    </array>
+</resources>

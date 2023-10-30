@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">RisingOS menggunakan Motion Sense untuk mendeteksi gerakan di sekitar. Fitur ini tidak menggunakan kamera, mikrofon, atau lokasi Anda.</string>
+     <string name="bc_welcome_message">Selamat datang di RisingOS</string>
+     <string name="deferred_setup_wizard_title">Selesaikan penyiapan RisingOS</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">Penyiapan RisingOS</string>
+     <string name="smart_always_on_display_opt_in_info_text">RisingOS menggunakan Motion Sense untuk mendeteksi gerakan di sekitar. Fitur ini tidak menggunakan kamera, mikrofon, atau lokasi Anda.</string>
+</resources>

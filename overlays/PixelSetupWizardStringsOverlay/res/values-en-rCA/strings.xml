@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">RisingOS uses Motion Sense to detect nearby movement. It does not use your camera, mic, or location.</string>
+     <string name="bc_welcome_message">Welcome to RisingOS</string>
+     <string name="deferred_setup_wizard_title">Finish setting up RisingOS</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">RisingOS Setup</string>
+     <string name="smart_always_on_display_opt_in_info_text">RisingOS uses Motion Sense to detect nearby movement. It does not use your camera, mic, or location.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">RisingOS จะใช้ Motion Sense เพื่อตรวจหาการเคลื่อนไหวที่อยู่ใกล้ๆ โดยจะไม่ใช้กล้องถ่ายรูป ไมโครโฟน หรือตำแหน่ง</string>
+     <string name="bc_welcome_message">ยินดีต้อนรับสู่ RisingOS</string>
+     <string name="deferred_setup_wizard_title">ตั้งค่า RisingOS ให้เสร็จ</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">การตั้งค่า RisingOS</string>
+     <string name="smart_always_on_display_opt_in_info_text">RisingOS จะใช้ Motion Sense เพื่อตรวจหาการเคลื่อนไหวที่อยู่ใกล้ๆ โดยจะไม่ใช้กล้องถ่ายรูป ไมโครโฟน หรือตำแหน่ง</string>
+</resources>

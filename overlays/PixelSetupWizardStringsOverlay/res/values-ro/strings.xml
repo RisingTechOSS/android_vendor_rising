@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">RisingOS folosește Motion Sense pentru a detecta mișcări în apropiere. Nu folosește camera, microfonul sau locația.</string>
+     <string name="bc_welcome_message">Bun venit la RisingOS!</string>
+     <string name="deferred_setup_wizard_title">Finalizează de configurat RisingOS</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">Configurare RisingOS</string>
+     <string name="smart_always_on_display_opt_in_info_text">RisingOS folosește Motion Sense pentru a detecta mișcări în apropiere. Nu folosește camera, microfonul sau locația.</string>
+</resources>

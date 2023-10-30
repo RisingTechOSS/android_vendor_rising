@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">RisingOS користи Motion Sense за откривање покрета у близини. Не користи камеру, микрофон нити локацију.</string>
+     <string name="bc_welcome_message">Добро дошли на RisingOS</string>
+     <string name="deferred_setup_wizard_title">Довршите подешавање RisingOS-а</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">Подешавање RisingOS-а</string>
+     <string name="smart_always_on_display_opt_in_info_text">RisingOS користи Motion Sense за откривање покрета у близини. Не користи камеру, микрофон нити локацију.</string>
+</resources>

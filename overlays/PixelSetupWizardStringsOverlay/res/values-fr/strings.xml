@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">"Le RisingOS utilise Motion Sense pour capter les mouvements à proximité. Il n'utilise ni la caméra, ni le micro, ni votre position."</string>
+     <string name="bc_welcome_message">Bienvenue sur votre RisingOS</string>
+     <string name="deferred_setup_wizard_title">Finir de configurer le RisingOS</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">Configuration du RisingOS</string>
+     <string name="smart_always_on_display_opt_in_info_text">"Le RisingOS utilise Motion Sense pour capter les mouvements à proximité. Il n'utilise ni la caméra, ni le micro, ni votre position."</string>
+</resources>

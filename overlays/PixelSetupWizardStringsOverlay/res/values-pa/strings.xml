@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">RisingOS ਨੇੜੇ-ਤੇੜੇ ਦੀ ਹਿਲਜੁਲ ਦਾ ਪਤਾ ਲਗਾਉਣ ਲਈ Motion Sense ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ। ਇਹ ਤੁਹਾਡੇ ਕੈਮਰੇ, ਮਾਈਕ ਜਾਂ ਟਿਕਾਣੇ ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕਰਦਾ ਹੈ।</string>
+     <string name="bc_welcome_message">RisingOS ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ</string>
+     <string name="deferred_setup_wizard_title">RisingOS ਦਾ ਸੈੱਟਅੱਪ ਪੂਰਾ ਕਰੋ</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">RisingOS ਸੈੱਟਅੱਪ</string>
+     <string name="smart_always_on_display_opt_in_info_text">RisingOS ਨੇੜੇ-ਤੇੜੇ ਦੀ ਹਿਲਜੁਲ ਦਾ ਪਤਾ ਲਗਾਉਣ ਲਈ Motion Sense ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ। ਇਹ ਤੁਹਾਡੇ ਕੈਮਰੇ, ਮਾਈਕ ਜਾਂ ਟਿਕਾਣੇ ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕਰਦਾ ਹੈ।</string>
+</resources>

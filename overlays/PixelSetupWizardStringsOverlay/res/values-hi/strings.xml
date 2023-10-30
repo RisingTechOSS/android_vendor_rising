@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">RisingOS, आस-पास होने वाली हलचल को महसूस करने के लिए, Motion Sense का इस्तेमाल करता है. यह आपके फ़ोन के कैमरे, माइक या जगह की जानकारी का इस्तेमाल नहीं करता.</string>
+     <string name="bc_welcome_message">RisingOS फ़ोन पर आपका स्वागत है</string>
+     <string name="deferred_setup_wizard_title">RisingOS का सेट अप पूरा करें</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">RisingOS का सेटअप</string>
+     <string name="smart_always_on_display_opt_in_info_text">RisingOS, आस-पास होने वाली हलचल को महसूस करने के लिए, Motion Sense का इस्तेमाल करता है. यह आपके फ़ोन के कैमरे, माइक या जगह की जानकारी का इस्तेमाल नहीं करता.</string>
+</resources>

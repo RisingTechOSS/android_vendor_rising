@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">I-RisingOS isebenzisa i-Motion Sense ukuze ithole ukunyakaza okuseduze. Ayisebenzisi ikhamera yakho, imakrofoni, noma indawo.</string>
+     <string name="bc_welcome_message">Siyakwamukela kwi-RisingOS yakho</string>
+     <string name="deferred_setup_wizard_title">Qedelela ukusetha i-RisingOS</string>
+     <string name="device_name">I-RisingOS</string>
+     <string name="setup_wizard_title">Ukusetha iphikseli</string>
+     <string name="smart_always_on_display_opt_in_info_text">I-RisingOS isebenzisa i-Motion Sense ukuze ithole ukunyakaza okuseduze. Ayisebenzisi ikhamera yakho, imakrofoni, noma indawo.</string>
+</resources>

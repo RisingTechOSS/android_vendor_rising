@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">A RisingOS a Motion Sense szolgáltatást használja a közeli mozdulatok észleléséhez. A funkció nem használja az eszköz kameráját, mikrofonját és helyadatait.</string>
+     <string name="bc_welcome_message">Üdvözli a RisingOS telefonja</string>
+     <string name="deferred_setup_wizard_title">A RisingOS beállításának befejezése</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">A RisingOS beállítása</string>
+     <string name="smart_always_on_display_opt_in_info_text">A RisingOS a Motion Sense szolgáltatást használja a közeli mozdulatok észleléséhez. A funkció nem használja az eszköz kameráját, mikrofonját és helyadatait.</string>
+</resources>

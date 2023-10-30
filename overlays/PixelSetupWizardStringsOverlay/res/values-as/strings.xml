@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">নিকটৱৰ্তী কার্যকলাপসমূহ চিনাক্ত কৰিবলৈ RisingOSএ Motion Sense ব্যৱহাৰ কৰে। ই আপোনাৰ কেমেৰা, মাইক অথবা অৱস্থান ব্যৱহাৰ নকৰে।</string>
+     <string name="bc_welcome_message">আপোনাৰ RisingOSলৈ স্বাগতম</string>
+     <string name="deferred_setup_wizard_title">RisingOSৰ ছেট আপ সম্পূৰ্ণ কৰক</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">RisingOS ছেট আপ</string>
+     <string name="smart_always_on_display_opt_in_info_text">নিকটৱৰ্তী কার্যকলাপসমূহ চিনাক্ত কৰিবলৈ RisingOSএ Motion Sense ব্যৱহাৰ কৰে। ই আপোনাৰ কেমেৰা, মাইক অথবা অৱস্থান ব্যৱহাৰ নকৰে।</string>
+</resources>

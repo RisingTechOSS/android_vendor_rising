@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">Το RisingOS χρησιμοποιεί το Motion Sense για να ανιχνεύει κινήσεις σε κοντινή απόσταση. Δεν χρησιμοποιεί την κάμερα, το μικρόφωνο ή την τοποθεσία σας.</string>
+     <string name="bc_welcome_message">Καλώς ορίσατε στο RisingOS</string>
+     <string name="deferred_setup_wizard_title">Ολοκλήρωση της ρύθμισης του RisingOS</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">Ρύθμιση RisingOS</string>
+     <string name="smart_always_on_display_opt_in_info_text">Το RisingOS χρησιμοποιεί το Motion Sense για να ανιχνεύει κινήσεις σε κοντινή απόσταση. Δεν χρησιμοποιεί την κάμερα, το μικρόφωνο ή την τοποθεσία σας.</string>
+</resources>

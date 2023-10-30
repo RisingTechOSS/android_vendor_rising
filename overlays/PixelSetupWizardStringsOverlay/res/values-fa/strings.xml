@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">‏RisingOS از Motion Sense برای تشخیص حرکت‌های اطراف دستگاه استفاده می‌کند. این ویژگی از دوربین، میکروفون یا مکان شما استفاده نمی‌کند.</string>
+     <string name="bc_welcome_message">‏به RisingOS خوش‌آمدید</string>
+     <string name="deferred_setup_wizard_title">‏راه‌اندازی RisingOS را تمام کنید</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">‏راه‌اندازی RisingOS</string>
+     <string name="smart_always_on_display_opt_in_info_text">‏RisingOS از Motion Sense برای تشخیص حرکت‌های اطراف دستگاه استفاده می‌کند. این ویژگی از دوربین، میکروفون یا مکان شما استفاده نمی‌کند.</string>
+</resources>

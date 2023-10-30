@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">RisingOS අවට චලනය අනාවරණයට Motion Sense භාවිතා කරයි. එය ඔබේ කැමරාව, මයික්‍රොෆෝනය, හෝ ස්ථානය භාවිත නොකරයි.</string>
+     <string name="bc_welcome_message">ඔබගේ RisingOS වෙත සාදරයෙන් පිළිගනිමු</string>
+     <string name="deferred_setup_wizard_title">RisingOS පිහිටුවීම අවසන් කරන්න</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">RisingOS පිහිටුවීම</string>
+     <string name="smart_always_on_display_opt_in_info_text">RisingOS අවට චලනය අනාවරණයට Motion Sense භාවිතා කරයි. එය ඔබේ කැමරාව, මයික්‍රොෆෝනය, හෝ ස්ථානය භාවිත නොකරයි.</string>
+</resources>

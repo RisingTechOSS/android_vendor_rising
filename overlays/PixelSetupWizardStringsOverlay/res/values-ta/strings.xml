@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">அருகிலுள்ள நகர்வைக் கண்டறிய RisingOS Motion Sense அம்சத்தைப் பயன்படுத்துகிறது. கேமராவையோ மைக்கையோ இருப்பிடத்தையோ பயன்படுத்தாது.</string>
+     <string name="bc_welcome_message">RisingOSலுக்கு வரவேற்கிறோம்</string>
+     <string name="deferred_setup_wizard_title">RisingOSலை அமைப்பதை முடிக்கவும்</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">RisingOS அமைவு</string>
+     <string name="smart_always_on_display_opt_in_info_text">அருகிலுள்ள நகர்வைக் கண்டறிய RisingOS Motion Sense அம்சத்தைப் பயன்படுத்துகிறது. கேமராவையோ மைக்கையோ இருப்பிடத்தையோ பயன்படுத்தாது.</string>
+</resources>

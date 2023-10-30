@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">RisingOS nutzt zur Erkennung von Bewegungen in seiner Nähe die Funktion „Motion Sense“. Deine Kamera, dein Mikrofon oder dein Standort werden nicht verwendet.</string>
+     <string name="bc_welcome_message">Willkommen zu deinem RisingOS</string>
+     <string name="deferred_setup_wizard_title">RisingOS-Einrichtung abschließen</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">RisingOS-Einrichtung</string>
+     <string name="smart_always_on_display_opt_in_info_text">RisingOS nutzt zur Erkennung von Bewegungen in seiner Nähe die Funktion „Motion Sense“. Deine Kamera, dein Mikrofon oder dein Standort werden nicht verwendet.</string>
+</resources>

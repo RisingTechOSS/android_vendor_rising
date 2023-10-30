@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">„RisingOS“ įrenginys naudoja „Motion Sense“, kad galėtų aptikti judėjimą netoliese. Fotoaparatas, mikrofonas ar vietovės informacija nenaudojami.</string>
+     <string name="bc_welcome_message">Sveiki! Tai – „RisingOS“</string>
+     <string name="deferred_setup_wizard_title">Užbaikite „RisingOS“ sąranką</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">„RisingOS“ sąranka</string>
+     <string name="smart_always_on_display_opt_in_info_text">„RisingOS“ įrenginys naudoja „Motion Sense“, kad galėtų aptikti judėjimą netoliese. Fotoaparatas, mikrofonas ar vietovės informacija nenaudojami.</string>
+</resources>

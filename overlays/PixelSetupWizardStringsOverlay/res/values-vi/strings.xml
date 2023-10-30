@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">RisingOS dùng tính năng Motion Sense để phát hiện chuyển động ở gần. Tính năng này không sử dụng máy ảnh, micrô hay thông tin vị trí.</string>
+     <string name="bc_welcome_message">Chào mừng bạn đến với RisingOS</string>
+     <string name="deferred_setup_wizard_title">Hoàn tất việc thiết lập RisingOS</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">Thiết lập RisingOS</string>
+     <string name="smart_always_on_display_opt_in_info_text">RisingOS dùng tính năng Motion Sense để phát hiện chuyển động ở gần. Tính năng này không sử dụng máy ảnh, micrô hay thông tin vị trí.</string>
+</resources>

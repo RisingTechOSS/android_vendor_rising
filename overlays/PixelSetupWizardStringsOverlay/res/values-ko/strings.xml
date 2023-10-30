@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">RisingOS은 Motion Sense를 사용하여 주변 움직임을 감지합니다. 이때 카메라, 마이크 또는 위치는 사용되지 않습니다.</string>
+     <string name="bc_welcome_message">RisingOS을 구매해 주셔서 감사합니다</string>
+     <string name="deferred_setup_wizard_title">RisingOS 설정 완료하기</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">RisingOS 설정</string>
+     <string name="smart_always_on_display_opt_in_info_text">RisingOS은 Motion Sense를 사용하여 주변 움직임을 감지합니다. 이때 카메라, 마이크 또는 위치는 사용되지 않습니다.</string>
+</resources>

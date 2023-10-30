@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">Մոտակայքում շարժում հայտնաբերելու նպատակով RisingOS-ն օգտագործում է Motion Sense գործառույթը: Ձեր տեսախցիկը, խոսափողը և տեղադրության մասին տվյալները չեն օգտագործվում:</string>
+     <string name="bc_welcome_message">Բարի գալուստ ձեր RisingOS</string>
+     <string name="deferred_setup_wizard_title">Ավարտեք RisingOS-ի կարգավորումը</string>
+     <string name="device_name">RisingOS</string>
+     <string name="setup_wizard_title">RisingOS-ի կարգավորում</string>
+     <string name="smart_always_on_display_opt_in_info_text">Մոտակայքում շարժում հայտնաբերելու նպատակով RisingOS-ն օգտագործում է Motion Sense գործառույթը: Ձեր տեսախցիկը, խոսափողը և տեղադրության մասին տվյալները չեն օգտագործվում:</string>
+</resources>
