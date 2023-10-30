@@ -1,6 +1,7 @@
 $(call inherit-product-if-exists, vendor/gms/products/gms.mk)
 $(call inherit-product-if-exists, vendor/rising/config/version.mk)
 $(call inherit-product-if-exists, vendor/rising/overlays/build.mk)
+$(call inherit-product-if-exists, vendor/rising/prebuilts/build.mk)
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
