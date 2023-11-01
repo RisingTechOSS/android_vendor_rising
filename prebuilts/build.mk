@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/rising/prebuilts
+
 PRODUCT_PACKAGES += \
     SystemUIClocks-BigNum \
     SystemUIClocks-Calligraphy \
