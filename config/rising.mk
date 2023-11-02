@@ -68,6 +68,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.wm.extensions.enabled=true
 
+# Extracted APN's from Cheetah
+PRODUCT_COPY_FILES += \
+    vendor/rising/prebuilts/apn/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+
 # vars
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
