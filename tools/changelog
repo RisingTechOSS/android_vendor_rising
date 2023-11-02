@@ -64,7 +64,7 @@ do
   # Cycle through every repo to find commits between 2 dates
   current_path="$(realpath `pwd`)"
 
-  repo forall -c "GIT_LOG=\`git log --oneline --after=$after_date --until=$until_date\` ; if [ ! -z \"\$GIT_LOG\" ]; then printf  '\n   * '; realpath \`pwd\` | sed 's|^$current_path/||' ; echo \"\$GIT_LOG\"; fi" >> "$changelog"
+  repo forall -c "GIT_LOG=\`git log --pretty=format:'%cd%x09%s [%an]' --after=$after_date --until=$until_date --date=short\` ; if [ ! -z \"\$GIT_LOG\" ]; then printf  '\n   * '; realpath \`pwd\` | sed 's|^$current_path/||' ; echo \"\$GIT_LOG\"; fi" >> "$changelog"
   echo >> "$changelog"
 done
 
