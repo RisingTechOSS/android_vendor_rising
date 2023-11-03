@@ -2,6 +2,7 @@ include vendor/gms/products/gms.mk
 include vendor/rising/config/version.mk
 include vendor/rising/overlays/build.mk
 include vendor/rising/prebuilts/build.mk
+include vendor/rising/audio/prebuilt-audio.mk
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
