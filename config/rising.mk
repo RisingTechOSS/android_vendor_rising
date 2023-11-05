@@ -4,6 +4,13 @@ include vendor/rising/overlays/build.mk
 include vendor/rising/prebuilts/build.mk
 include vendor/rising/audio/prebuilt-audio.mk
 
+# File systems tools
+PRODUCT_PACKAGES += \
+    fsck.ntfs \
+    mke2fs \
+    mkfs.ntfs \
+    mount.ntfs
+
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.google.clientidbase=android-google
