@@ -99,5 +99,6 @@ PRODUCT_COPY_FILES += \
     
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.ringtone=21_Lychee.ogg \
-    ro.config.notification_sound=21_oneplus.ogg
+    ro.config.notification_sound=21_oneplus.ogg \
+    ro.config.alarm_alert=01_trad.ogg
     
