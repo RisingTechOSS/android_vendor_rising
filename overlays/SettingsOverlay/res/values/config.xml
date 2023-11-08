@@ -7,4 +7,7 @@
     <string name="config_wallpaper_picker_action">android.intent.action.MAIN</string>
     <string name="config_wallpaper_picker_class">com.google.android.apps.wallpaper.picker.CategoryPickerActivity</string>
     <string name="config_wallpaper_picker_package">com.google.android.apps.wallpaper</string>
+
+    <!-- Whether to display Cloned Apps page in Settings (Settings > Apps > Cloned Apps).-->
+    <bool name="config_cloned_apps_page_enabled">true</bool>
 </resources>
