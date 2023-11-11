@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="config_bodyFontFamily">googlesans-text</string>
+    <string name="config_bodyFontFamilyMedium">googlesans-text-medium</string>
+    <string name="config_clockFontFamily">googlesans-clock</string>
+    <string name="config_headlineFontFamily">googlesans</string>
+    <string name="config_headlineFontFamilyMedium">googlesans-medium</string>
+    <string name="config_headlineFontFeatureSettings">ss03</string>
     <!-- The list of components which should be automatically disabled for all devices. -->
     <string-array name="config_globallyDisabledComponents" translatable="false">
         <!-- Disable stock OTA components if installed -->
