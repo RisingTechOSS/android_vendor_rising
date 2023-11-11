@@ -2,6 +2,9 @@
 
 # RisingOS versioning
 
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/rising/version
+
 RISING_FLAVOR := UDC
 RISING_VERSION := 2.0
 RISING_CODENAME := Florence
