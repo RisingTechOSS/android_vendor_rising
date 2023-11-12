@@ -9,4 +9,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SystemUIGoogle \
     SettingsGoogle \
-    Backgrounds
+    Backgrounds \
+    GameSpace
