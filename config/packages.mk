@@ -11,3 +11,8 @@ PRODUCT_PACKAGES += \
     SettingsGoogle \
     Backgrounds \
     GameSpace
+
+ifneq ($(WITH_GMS),true)
+PRODUCT_PACKAGES += \
+    LatinIME
+endif
