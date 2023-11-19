@@ -418,4 +418,6 @@
         <item>app_cloning/enable_app_cloning_building_blocks=true</item>
 
     </string-array>
+    
+    <bool name="config_supportSmartPixels">true</bool>
 </resources>
