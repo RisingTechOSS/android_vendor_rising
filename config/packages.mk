@@ -10,7 +10,8 @@ PRODUCT_PACKAGES += \
     SystemUIGoogle \
     SettingsGoogle \
     Backgrounds \
-    GameSpace
+    GameSpace \
+    Updater
 
 ifneq ($(WITH_GMS),true)
 PRODUCT_PACKAGES += \
