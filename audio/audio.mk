@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(AUDIO_SOURCE_DIR)/ui,$(AUDIO_DEST_DIR)/ui)
 
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.ringtone=21_Lychee.ogg \
+    ro.config.ringtone=23_echo_of_fate.ogg \
     ro.config.notification_sound=21_oneplus.ogg \
     ro.config.alarm_alert=11_isekai.ogg
 
