@@ -11,6 +11,18 @@ include vendor/rising/prebuilts/prebuilts.mk
 PRODUCT_SOONG_NAMESPACES += \
     vendor/rising/common
 
+
+ifeq ($(TARGET_SUPPORTS_64_BIT_APPS),true)
+PRODUCT_PACKAGES += \
+    FaceUnlock
+
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.face.sense_service=true
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
+endif
+
 # File systems tools
 PRODUCT_PACKAGES += \
     fsck.ntfs \
